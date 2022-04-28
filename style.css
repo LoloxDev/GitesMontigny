@@ -1,0 +1,48 @@
+.flex{
+    display: flex;
+}
+
+.imgaccueil{
+    height: 100vh;
+    transition: 0.3s;
+    width: 40%;
+    position: relative;
+}
+
+.imgaccueil:hover{
+    width:50%;
+}
+
+.middle{
+    width:20%;
+}
+
+.middle:hover{
+    width:30%;
+}
+
+.flex h2{
+    position: absolute;
+    bottom: 50%;
+    left:30%;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Oswald', sans-serif;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    border-radius: 15px;
+    background: rgb(0,0,0,0.15);
+    padding: 0 10px 10px 10px
+}
+
+.flex h2::first-letter{
+    font-family: 'Playball', cursive;
+    font-size: 2em;
+    margin-right: 6px;
+}
+
+
+
+
+
+
