@@ -4,6 +4,7 @@
     display: flex;
 }
 
+
 .imgaccueil{
     height: 100vh;
     transition: 0.3s;
@@ -52,11 +53,6 @@
 }
 
 /* PAGE 1 KELIDOINE */
-
-header{
-    width: 100%;
-    height: 300px;
-}
 
 nav{
     display: flex;
@@ -114,10 +110,12 @@ header:hover .bluenavbarre{
     z-index: 99;
     top: 40%;
     color: rgb(0,74,173);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 0.9em;
     letter-spacing: 1px;
+    transition: 0.2s;
 }
+
 
 .navoptions:first-of-type {
     right: 40%;
