@@ -1,0 +1,18 @@
+.backyellow {
+    background-color: rgb(243,239,72);
+}
+
+.yellow {
+    color: rgb(243,239,72);
+}
+
+
+#logo {
+    border-left: solid 1px rgb(243,239,72);
+    border-right: solid 1px rgb(243,239,72);
+}
+
+section{
+    background: url("../img/IMG_6801.jpg") no-repeat;
+    background-size: cover;
+}

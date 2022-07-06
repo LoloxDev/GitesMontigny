@@ -1,0 +1,13 @@
+.backblue {
+    background-color: rgb(0,74,173);
+}
+
+.blue {
+    color: rgb(0,74,173);
+}
+
+#logo {
+    border-left: solid 1px rgb(0,74,173);
+    border-right: solid 1px rgb(0,74,173);
+}
+
