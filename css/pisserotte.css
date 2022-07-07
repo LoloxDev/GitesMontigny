@@ -6,8 +6,12 @@
     color: rgb(0,74,173);
 }
 
-#logo {
+#logo img {
     border-left: solid 1px rgb(0,74,173);
     border-right: solid 1px rgb(0,74,173);
 }
 
+section{
+    background: url("../img/IMG_6801.jpg") no-repeat;
+    background-size: cover;
+}

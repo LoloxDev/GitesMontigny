@@ -52,7 +52,6 @@
     margin-right: 6px;
 }
 
-/* PAGE 1 KELIDOINE */
 
 header{
     position: fixed;
@@ -60,133 +59,96 @@ header{
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 120px 50px;
-    position: relative;
-    width: 100%;
-    
-}
-
-
-#logo{
     margin:auto;
-    width: 250px;
-    border-radius: 60px;
-    position: absolute;
-    left: 50%;
-    margin-left: -125px;
+    width: 100%;
+    position: relative;
     z-index: 1;
     cursor: pointer;
 }
 
-.navbarre{
-    height: 2px;
-    position: absolute;
-    width:1%;
-    top: 120px;
-    transition: 1s;
-    left: 49%;
-    transform-origin: center;
+#logo img{
+    width: 250px;
+    margin: auto;
+    border-radius: 60px;
 }
 
+.navbarre{
+    height: 1.5px;
+    position: absolute;
+    width:0%;
+    top: 50%;
+    transition: 1s;
+}
 
+.navbarre:first-of-type{
+    right:50%;
+    margin-right: 125px;
+}
+
+.navbarre:last-of-type{
+    left: 50%;
+    margin-left: 125px;
+}
 
 header:hover .navbarre{
-    transform: scaleX(80);
+    width: calc(50% - 125px);
+}
+
+header:hover .navoptions{
+    opacity: 1;
 }
 
 .navoptions {
     opacity: 0;
     position: absolute;
     z-index: 99;
-    top: 40%;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 0.9em;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: black 0px 0px 2px;
+    font-size: 1em;
     transition: 0.2s;
 }
 
 
-.navoptions:first-of-type {
+.navbarre:first-of-type .navoptions:nth-child(2n+1),
+.navbarre:last-of-type .navoptions:nth-child(2n+1)
+ {
+    top: -30px;
+}
+
+.navbarre:first-of-type .navoptions:nth-child(2n),
+.navbarre:last-of-type .navoptions:nth-child(2n)
+ {
+    bottom: -30px;
+}
+
+
+/* BARRE GAUCHE */
+
+.navbarre:first-of-type .navoptions:first-of-type{
+    right: 15%;
+}
+
+.navbarre:first-of-type .navoptions:nth-of-type(2){
     right: 40%;
 }
 
-.navoptions:nth-of-type(2) {  
+.navbarre:first-of-type .navoptions:last-of-type{
+    right: 70%;
+}
+
+/* BARRE DROITE */
+
+.navbarre:last-of-type .navoptions:first-of-type{
+    left: 15%;
+}
+
+.navbarre:last-of-type .navoptions:nth-of-type(2){
     left: 40%;
 }
 
-.navoptions:nth-of-type(3) {  
-    right: 30%;
-    top:55%;
-} 
-
-.navoptions:nth-of-type(4) {  
-    left: 30%;
-    top:55%;
-} 
-
-.navoptions:nth-of-type(5) {  
-    right: 20%;
-} 
-
-.navoptions:nth-of-type(6) {  
-    left: 20%;
-} 
-
-
-header:hover .X{
-animation: X 20s ease-in;
-}
-
-header:hover .Y{
-animation: Y 20s ease-in;
-}
-
-
-@keyframes X {
-
-    0% { 
-        opacity: 0;
-    }
-
-    2% { 
-        opacity: 1;
-        transform: translateX(-150%) scale(1.2);
-    }
-
-    85% {
-        opacity: 1;
-        transform: translateX(-150%) scale(1.2);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(-150%) scale(1.2);
-    }
-
-}
-
-@keyframes Y {
-
-    0% { 
-        opacity: 0;
-    }
-
-    2% { 
-        opacity: 1;
-        transform: translateX(150%) scale(1.1);
-    }
-
-    85% {
-        opacity: 1;
-        transform: translateX(150%) scale(1.1);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(150%) scale(1.1);
-    }
-
+.navbarre:last-of-type .navoptions:last-of-type{
+    left: 70%;
 }
 
 section{
