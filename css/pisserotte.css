@@ -1,17 +1,23 @@
 .backblue {
-    background-color: rgb(0,74,173);
+    background-color: white;
 }
 
 .blue {
+    
     color: rgb(0,74,173);
 }
 
-#logo img {
-    border-left: solid 1px rgb(0,74,173);
-    border-right: solid 1px rgb(0,74,173);
+.white {
+    color: white;
 }
 
-section{
-    background: url("../img/IMG_6801.jpg") no-repeat;
-    background-size: cover;
+#logo img {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-radius: 50%;
+}
+
+footer{
+    background: no-repeat center / cover url("../img/couverture.jpg");
+    filter: grayscale(50%);
 }

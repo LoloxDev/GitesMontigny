@@ -1,18 +1,22 @@
 .backyellow {
-    background-color: rgb(243,239,72);
+    background-color: #ffde59;
 }
 
 .yellow {
-    color: rgb(243,239,72);
+    color: #ffde59;
 }
 
 
 #logo img {
-    border-left: solid 1px rgb(243,239,72);
-    border-right: solid 1px rgb(243,239,72);
+    border-left: solid 1px #ffde59;
+    border-right: solid 1px #ffde59;
 }
 
 section{
-    background: url("../img/IMG_6801.jpg") no-repeat;
-    background-size: cover;
+    background: no-repeat center / cover url("../img/IMG_6801.jpg");
+}
+
+header{
+    background: none;
+    filter:none;
 }

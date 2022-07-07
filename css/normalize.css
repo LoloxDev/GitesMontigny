@@ -44,6 +44,7 @@ body {
 /* A elements that don't have a class get default styles */
 a {
     text-decoration: none;
+    color: initial;
 }
 
 /* Make images easier to work with */
