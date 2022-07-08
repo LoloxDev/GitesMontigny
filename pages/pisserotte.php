@@ -21,7 +21,7 @@
         <header>
             <nav id="logo">
 
-                <img src="../img/logo_pisserotte.png" alt="logo kélidoine">
+                <img src="../img/Pisserotte/logo_pisserotte.png" alt="logo kélidoine">
 
 
                 <div class="navbarre">

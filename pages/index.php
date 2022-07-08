@@ -6,7 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/normalize.css" />
-        <link rel="stylesheet" href="../css/kelidoine.css" />
+        <?php
+
+            /*Liens css*/
+        if(empty($_GET['ind'])) {
+            $_GET['ind'] = 'acc';
+        }
+
+        if ($_GET['ind'] == 'kelidoine') {
+            echo '<link rel="stylesheet" href="../css/kelidoine.css">';
+        } elseif ($_GET['ind'] == 'pisserotte'){
+            echo '<link rel="stylesheet" href="../css/pisserotte.css">';
+        }
+
+        
+
+        ?>
         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css"/>
@@ -21,7 +36,22 @@
         <header>
             <nav id="logo">
 
-                <img src="../img/logo_kelidoine.png" alt="logo kélidoine">
+            <?php
+            
+            $color = "";
+            
+            /* Logo + couleur */
+                if ($_GET['ind'] == 'kelidoine') {
+                    echo '<img src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine">';
+                    $color = "yellow";
+
+                } elseif ($_GET['ind'] == 'pisserotte'){
+                    echo '<img src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte">';
+                    $color = "blue";
+                }
+
+            ?>
+                
 
 
                 <div class="navbarre">
@@ -56,7 +86,11 @@
         </header>
         
             <section>
-                
+                <?php
+                    echo($_GET['ind']);
+                ?>
+
+                <p> pozdkozk </p>
             </section>
 
             <footer class="flex">
