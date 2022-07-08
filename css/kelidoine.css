@@ -1,22 +1,17 @@
-.backyellow {
-    background-color: #ffde59;
-}
 
 .yellow {
     color: #ffde59;
 }
 
-
-#logo img {
-    border-left: solid 1px #ffde59;
-    border-right: solid 1px #ffde59;
-}
-
-section{
-    background: no-repeat center / cover url("../img/IMG_6801.jpg");
-}
+/* BACKGROUNDS */
 
 header{
-    background: none;
-    filter:none;
+        background: no-repeat 25% 0% / cover url("../img/moon3.jpg");
+        filter: drop-shadow(16px 16px 20px #1a6eab);
+        transition: 5s;
+}
+
+header:hover{
+    background: no-repeat 25% 45% / cover url("../img/moon3.jpg");
+    animation: none;
 }

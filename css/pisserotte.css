@@ -1,23 +1,19 @@
-.backblue {
-    background-color: white;
-}
-
 .blue {
-    
     color: rgb(0,74,173);
 }
 
-.white {
-    color: white;
+/* BACKGROUNDS */
+
+header{
+    background: no-repeat 25% 40% / cover url("../img/sunset2.jpg");
+    filter: drop-shadow(16px 16px 20px #fed482);
 }
 
-#logo img {
-    border-left: solid 1px white;
-    border-right: solid 1px white;
-    border-radius: 50%;
+header:hover{
+    background: no-repeat 25% 63% / cover url("../img/sunset2.jpg");
 }
 
 footer{
     background: no-repeat center / cover url("../img/couverture.jpg");
-    filter: grayscale(50%);
+    filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);;
 }

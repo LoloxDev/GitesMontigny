@@ -13,6 +13,7 @@ section{
     width: 100%;
 }
 
+/* ACCEUIL (INDEX) */
 
 .imgaccueil{
     height: 100vh;
@@ -65,17 +66,14 @@ section{
     font-family: 'Oswald', sans-serif;
 }
 
+/* INDEX PAGES */
+
+/* HEADER */
 
 header{
     position: fixed;
     width: 100%;
-    background: no-repeat 25% 65% / cover url("../img/sunset.jpg");
-
-
-
-filter: drop-shadow(16px 16px 20px #fed482);
-
-    
+    transition: 5s;
 }
 
 nav{
@@ -89,7 +87,14 @@ nav{
 #logo img{
     width: 250px;
     margin: auto;
-    border-radius: 60px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.active nav img{
+    width: 150px !important;
 }
 
 .navbarre{
@@ -98,6 +103,7 @@ nav{
     width:0%;
     top: 50%;
     transition: 1s;
+    background-color: white;
 }
 
 .navbarre:first-of-type{
@@ -171,6 +177,8 @@ header:hover .navoptions{
     left: 70%;
 }
 
+/* FOOTER */
+
 footer{
     text-align: center;
     margin: auto;
@@ -224,13 +232,4 @@ footer a{
 .reseaux li:hover{
     transform: scale(1.1);
 }
-
-@keyframes sunset {
-
-    from { }
-
-    to { }
-    
-}
-
 
