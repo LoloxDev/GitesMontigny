@@ -36,21 +36,21 @@
         <header>
             <nav id="logo">
 
-            <?php
-            
-            $color = "";
-            
-            /* Logo + couleur */
-                if ($_GET['ind'] == 'kelidoine') {
-                    echo '<img src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine">';
-                    $color = "yellow";
+                <?php
+                
+                $color = "";
+                
+                /* Logo + couleur */
+                    if ($_GET['ind'] == 'kelidoine') {
+                        echo '<img src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine">';
+                        $color = "yellow";
 
-                } elseif ($_GET['ind'] == 'pisserotte'){
-                    echo '<img src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte">';
-                    $color = "blue";
-                }
+                    } elseif ($_GET['ind'] == 'pisserotte'){
+                        echo '<img src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte">';
+                        $color = "blue";
+                    }
 
-            ?>
+                ?>
                 
 
 
@@ -98,49 +98,44 @@
             </nav>
         </header>
         
-            <section>
+        <section>
 
-            </section>
+        </section>
 
-            <footer class="flex">
+        <footer class="flex">
 
-                <h2 class="footer-heading"><a href="#" class="logo <?php echo($color) ?>">GitesMontigny.com</a></h2>
-                <ul class="menu flex">
-                    <li href="#">Accueil</li>
-                    <li href="#">Mentions légales</li>
-                    <li href="#">À propos</li>
-                    <li href="#">Quelque chose</li>
-                    <li href="#">Quelque chose</li>
-                    <li href="#">Contact</li>
-                </ul>
+            <h2 class="footer-heading"><a href="#" class="logo <?php echo($color) ?>">GitesMontigny.com</a></h2>
+            <ul class="menu flex">
+                <li href="#">Accueil</li>
+                <li href="#">Mentions légales</li>
+                <li href="#">À propos</li>
+                <li href="#">Quelque chose</li>
+                <li href="#">Quelque chose</li>
+                <li href="#">Contact</li>
+            </ul>
 
-                <ul class="reseaux">
+            <ul class="reseaux">
+                <li>
+                    <a href="#" title="Facebook">
+                        <img src="../img/facebook.png" alt="Logo Facebook"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Instagram">
+                        <img src="../img/instagram.png" alt="Logo Instagram"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter">
+                        <img src="../img/twitter.png" alt="Logo Twitter"/>
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com" target="_blank">Loris Labarre</a>
+            </p>
 
-                    <li>
-                        <a href="#" title="Facebook">
-                            <img src="../img/facebook.png" alt="Logo Facebook"/>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="Instagram">
-                            <img src="../img/instagram.png" alt="Logo Instagram"/>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="Twitter">
-                            <img src="../img/twitter.png" alt="Logo Twitter"/>
-                        </a>
-                    </li>
-
-                </ul>
-
-                <p>
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com" target="_blank">Loris Labarre</a>
-                </p>
-
-    </footer>
+        </footer>
 
     </body>
     <script src="../js/main.js" type="text/javascript"></script>
