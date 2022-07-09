@@ -183,10 +183,11 @@ footer{
     text-align: center;
     margin: auto;
     flex-direction: column;
-    background-color: #121212;
     color: silver;
     padding: 0 70px;
     letter-spacing: 0.5px;
+    background: no-repeat center / cover url("../img/couverture.jpg");
+    filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);
 }
 
 footer h2, footer p{
