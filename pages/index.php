@@ -56,13 +56,13 @@
 
                 <div class="navbarre">
                                         
-                    <a href="#" class="yellow navoptions Y">
+                    <a href="#" class="<?php echo($color) ?> navoptions Y">
                         Tarifs
                     </a>
-                    <a href="#" class="yellow navoptions X">
+                    <a href="#" class="<?php echo($color) ?> navoptions X">
                         Résidence
                     </a>
-                    <a href="#" class="yellow navoptions Y">
+                    <a href="#" class="<?php echo($color) ?> navoptions Y">
                         Disponibilités
                     </a>
 
@@ -70,15 +70,28 @@
 
                 <div class="navbarre">
 
-                    <a href="#" class="yellow navoptions X">
+                    <a href="#" class="<?php echo($color) ?> navoptions X">
                         Activités
                     </a>
-                    <a href="#" class="yellow navoptions Y">
+
+                    <a href="#" class="<?php echo($color) ?> navoptions Y">
                         Lac de Pont
                     </a>
-                    <a href="#" class="yellow navoptions X">
-                        Pisserotte
-                    </a>
+
+                    <?php if ($_GET['ind'] == 'kelidoine') {
+
+                            echo'<a href="index.php?ind=pisserotte" class=" '.($color).' navoptions X">
+                                    Pisserotte
+                                 </a>';
+
+                        } elseif ($_GET['ind'] == 'pisserotte') {
+
+                            echo'<a href="index.php?ind=kelidoine" class=" '.($color).' navoptions X">
+                                    Kelidoine
+                                 </a>';
+                        }
+                                         
+                    ?>
 
                 </div>
 
@@ -86,16 +99,12 @@
         </header>
         
             <section>
-                <?php
-                    echo($_GET['ind']);
-                ?>
 
-                <p> pozdkozk </p>
             </section>
 
             <footer class="flex">
 
-                <h2 class="footer-heading"><a href="#" class="logo yellow">GitesMontigny.com</a></h2>
+                <h2 class="footer-heading"><a href="#" class="logo <?php echo($color) ?>">GitesMontigny.com</a></h2>
                 <ul class="menu flex">
                     <li href="#">Accueil</li>
                     <li href="#">Mentions légales</li>
