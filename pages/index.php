@@ -39,15 +39,18 @@
                 <?php
                 
                 $color = "";
+                $ind = "";
                 
                 /* Logo + couleur */
                     if ($_GET['ind'] == 'kelidoine') {
-                        echo '<img src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine">';
+                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
                         $color = "yellow";
+                        $ind = "kelidoine";
 
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<img src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte">';
+                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
                         $color = "blue";
+                        $ind = "pisserotte";
                     }
 
                 ?>
@@ -56,13 +59,13 @@
 
                 <div class="navbarre">
                                         
-                    <a href="#" class="<?php echo($color) ?> navoptions Y">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=tar" class="<?php echo($color) ?> navoptions Y">
                         Tarifs
                     </a>
-                    <a href="#" class="<?php echo($color) ?> navoptions X">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions X">
                         Résidence
                     </a>
-                    <a href="#" class="<?php echo($color) ?> navoptions Y">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions Y">
                         Disponibilités
                     </a>
 
@@ -70,23 +73,23 @@
 
                 <div class="navbarre">
 
-                    <a href="#" class="<?php echo($color) ?> navoptions X">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="<?php echo($color) ?> navoptions X">
                         Activités
                     </a>
 
-                    <a href="#" class="<?php echo($color) ?> navoptions Y">
+                    <a href="pont.php" class="<?php echo($color) ?> navoptions Y">
                         Lac de Pont
                     </a>
 
                     <?php if ($_GET['ind'] == 'kelidoine') {
 
-                            echo'<a href="index.php?ind=pisserotte" class=" '.($color).' navoptions X">
+                            echo'<a href="index.php?ind=pisserotte&pg=acc" class=" '.($color).' navoptions X">
                                     Pisserotte
                                  </a>';
 
                         } elseif ($_GET['ind'] == 'pisserotte') {
 
-                            echo'<a href="index.php?ind=kelidoine" class=" '.($color).' navoptions X">
+                            echo'<a href="index.php?ind=kelidoine&pg=acc" class=" '.($color).' navoptions X">
                                     Kelidoine
                                  </a>';
                         }
@@ -98,8 +101,20 @@
             </nav>
         </header>
         
-        <section>
-
+        <section class="padding">
+                        <?php
+                            if($_GET['pg'] == 'acc') {
+                                include 'accueil.php';
+                            } elseif($_GET['pg'] == 'dis'){
+                                include 'dispo.php';
+                            } elseif($_GET['pg'] == 'res'){
+                                include 'residence.php';
+                            } elseif($_GET['pg'] == 'tar'){
+                                include 'tarifs.php';
+                            } elseif($_GET['pg'] == 'act'){
+                                include 'actloc.php';
+                            }
+                        ?>
         </section>
 
         <footer class="flex">

@@ -17,27 +17,27 @@
     </head>
 
     <body>
-        <section>
+    <section>
             <div class="flex pages">
-                <a href="../pages/kelidoine.html" class="imgaccueil">
+                <a href="index.php?ind=kelidoine&pg=acc" class="imgaccueil">
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
-                    <img class="imageaccueil1" src="../img/Kelidoine/chelidoine.php" alt="">
+                    <img class="imageaccueil1" src="../img/Kelidoine/chelidoine.jpg" alt="photo du gite de Kélidoine">
                 </a>
-                <a href="../pages/pont.html" class="imgaccueil middle">
+                <a href="index.php?ind=pont" class="imgaccueil middle">
                     <h2>
                         Lac de Pont
                     </h2>
-                    <img class="imageaccueil1" src="../img/Pont/lacDePont.php" alt="">
+                    <img class="imageaccueil1" src="../img/Pont/lacDePont.jpg" alt="photo du Lac de Pont">
                 </a>
-                <a href="../pages/pisserotte.html" class="imgaccueil">
+                <a href="index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>
                         Gîte de la Pisserotte
                     </h2>
-                    <img class="imageaccueil2" src="../img/Pisserotte/pisserotte.php" alt="">
+                    <img class="imageaccueil2" src="../img/Pisserotte/pisserotte.jpg" alt="photo du gite de la Pisserotte">
                 </a>
             </div>
-        </section>.
+        </section>
     </body>
 </html>

@@ -9,8 +9,17 @@
 }
 
 section{
-    height: 100vh;
     width: 100%;
+}
+
+.padding{
+    padding: 270px 100px 50px 100px;
+    text-align: center;
+}
+
+section h2{
+    width: fit-content;
+    border-bottom: 1px solid black;
 }
 
 /* ACCEUIL (INDEX) */
@@ -72,8 +81,10 @@ section{
 
 header{
     position: fixed;
+    top: 0;
     width: 100%;
     transition: 5s;
+    z-index: 5;
 }
 
 nav{
@@ -94,7 +105,7 @@ nav{
 }
 
 .active nav img{
-    width: 150px !important;
+    width: 100px !important;
 }
 
 .navbarre{
@@ -234,3 +245,18 @@ footer a{
     transform: scale(1.1);
 }
 
+/* INDEX PAGE ACCUEIL */
+
+.pAcc{
+    margin-top: 50px;
+}
+
+.carrous{
+    position: absolute;
+}
+
+.padding ul {
+    position: relative;
+    bottom: 0;
+    height: 800px;
+}

@@ -5,9 +5,9 @@ window.addEventListener('scroll', () => {
 
     console.log(scrollTop, clientHeight);
 
-    if (scrollTop >= 100){
+    if (scrollTop >= 50){
         slidingHeader.classList.add('active')
-    } else if (scrollTop <= 100) {
+    } else if (scrollTop <= 50) {
         slidingHeader.classList.remove('active')
     }
 

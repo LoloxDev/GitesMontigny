@@ -18,7 +18,7 @@
     <body>
         <section>
             <div class="flex pages">
-                <a href="pages/index.php?ind=kelidoine" class="imgaccueil">
+                <a href="pages/index.php?ind=kelidoine&pg=accueil" class="imgaccueil">
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
@@ -30,7 +30,7 @@
                     </h2>
                     <img class="imageaccueil1" src="img/Pont/lacDePont.jpg" alt="photo du Lac de Pont">
                 </a>
-                <a href="pages/index.php?ind=pisserotte" class="imgaccueil">
+                <a href="pages/accueil.php?ind=pisserotte" class="imgaccueil">
                     <h2>
                         Gîte de la Pisserotte
                     </h2>
