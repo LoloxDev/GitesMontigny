@@ -88,6 +88,14 @@ header{
     z-index: 5;
 }
 
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    color:white;
+}
+
 nav{
     margin:auto;
     width: 100%;
@@ -107,6 +115,10 @@ nav{
 
 .active nav img{
     width: 100px !important;
+}
+
+.activeF{
+    height: 100px !important;
 }
 
 .navbarre{
@@ -422,3 +434,49 @@ footer a{
     margin-left: -23px;
 }
 
+/* FORMULAIRE CONTACT */
+
+.imgform{
+    background: url("../img/Kelidoine/IMG_6758.jpg") 50% / cover no-repeat;
+}
+
+.no-gutters {
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.p-4{
+    background-color: rgb(252,219,178,0.5);
+    padding-right: 0 !important;
+}
+
+.formimg{
+    padding: 0 !important;
+}
+
+.nopad{
+    padding: 0 !important;
+}
+
+.marginBottom{
+    margin-bottom: 50px;
+}
+
+.contactForm .btn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.contactForm > div div:nth-of-type(3){
+    margin: 20px 0;
+}
