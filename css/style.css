@@ -23,6 +23,10 @@ section h2{
     border-bottom: 1px solid black;
 }
 
+.none{
+    display: none;
+}
+
 /* ACCEUIL (INDEX) */
 
 .imgaccueil{
@@ -212,6 +216,7 @@ footer{
     letter-spacing: 0.5px;
     background: no-repeat center / cover url("../img/couverture.jpg");
     filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);
+    transition: 0.2s;
 }
 
 footer h2, footer p{

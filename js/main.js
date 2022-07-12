@@ -1,5 +1,8 @@
 const slidingHeader = document.querySelector('header');
 const slidingFooter = document.querySelector('footer');
+//const delFoot = document.getElementsByClass('.del');
+
+console.log(delFoot);
 
 window.addEventListener('scroll', () => {
     const{scrollTop, clientHeight} = document.documentElement;
@@ -13,14 +16,15 @@ window.addEventListener('scroll', () => {
         slidingHeader.classList.remove('active')
     }
 
-    var scrollBottom = $(window).height() - $(window).scrollTop() - 221 ;
+    var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
     console.log(scrollBottom);
 
-    if (scrollBottom <= 50){
+    /*if (scrollBottom >= 50){
         slidingFooter.classList.add('activeF')
-    } else if (scrollBottom >= 50) {
+        delFoot.classList.add('none')
+    } else if (scrollBottom <= 50) {
         slidingFooter.classList.remove('activeF')
-    }
+    }*/
 
 })
 
