@@ -13,8 +13,9 @@ section{
 }
 
 .padding{
-    padding: 270px 100px 50px 100px;
+    padding: 300px 0 0 0;
     text-align: center;
+    overflow: hidden;
 }
 
 section h2{
@@ -248,15 +249,176 @@ footer a{
 /* INDEX PAGE ACCUEIL */
 
 .pAcc{
-    margin-top: 50px;
+    margin: 50px 50px;
 }
 
-.carrous{
-    position: absolute;
-}
 
-.padding ul {
+
+
+
+
+/* CARROUSSEL */ 
+
+#carroussel{
     position: relative;
-    bottom: 0;
-    height: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
 }
+
+#carroussel li{
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+#carroussel figure{
+    position: relative;
+    border: 2px black solid;
+}
+
+#carroussel li:first-of-type figure{
+    animation: animation-carte-1 19.5s 0s infinite;
+}
+
+#carroussel li:nth-of-type(2) figure{
+    animation: animation-carte-2 19.5s 0s infinite;
+}
+
+#carroussel li:nth-of-type(3) figure{
+    animation: animation-carte-3 19.5s 0s infinite;
+}
+
+@keyframes animation-carte-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    2.25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes animation-carte-2 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes animation-carte-3 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    70.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    97.75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+/* NOTES */
+
+#notes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    align-items: center;
+}
+
+#notes figure{
+    width: 100px;
+}
+
+#notes li:first-of-type{
+    margin-top: -20px;
+}
+
+#notes li:first-of-type figure{
+    width: 180px;
+    height: 40px;
+}
+
+#notes li:nth-of-type(2) figure{
+    width: 110px;
+}
+
+#notes li:nth-of-type(2) figcaption{
+    margin-top: 10px;
+    margin-left: -25px;
+    width: 180px;
+}
+
+#notes li:nth-of-type(3){
+    margin-top: 20px;
+}
+
+#notes li:nth-of-type(4) figure{
+    width: 50px;
+}
+
+#notes li:nth-of-type(4) figcaption{
+    width: 100px;
+    margin-left: -23px;
+}
+

@@ -51,6 +51,8 @@
                         echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
                         $color = "blue";
                         $ind = "pisserotte";
+                    } elseif (isset($_GET['ind'])){
+                        header('Location:../index.php');
                     }
 
                 ?>
@@ -113,6 +115,8 @@
                                 include 'tarifs.php';
                             } elseif($_GET['pg'] == 'act'){
                                 include 'actloc.php';
+                            } elseif(isset($_GET['pg'])){
+                                $_GET['pg'] == 'acc';
                             }
                         ?>
         </section>
