@@ -77,14 +77,6 @@
     </li>
     <li>
         <figure>
-            <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Terrasse privé
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
             <span class="iconify" data-icon="ic:baseline-smoke-free" style="color: #444; font-size: 32px;"></span>
             <figcaption>
                 Logement non fumeur
@@ -112,30 +104,6 @@
             <span class="iconify" data-icon="ph:bird-bold" style="color: #444; font-size: 32px;"></span>
             <figcaption>
                 Calme et reposant
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
-            <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Terrasse privé
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
-            <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Terrasse privé
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
-            <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Terrasse privé
             </figcaption>
         </figure>
     </li>
@@ -240,40 +208,25 @@
     </li>
     <li>
         <figure>
+        <span class="iconify" data-icon="icon-park-solid:cooking" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Vue sur la foret et sur la rivière
+                Barbecue & plancha
             </figcaption>
         </figure>
     </li>
     <li>
         <figure>
-            <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
+            <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Vue sur la foret et sur la rivière
+                Terrasse privé
             </figcaption>
         </figure>
     </li>
     <li>
         <figure>
-            <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
+            <span class="iconify" data-icon="ic:twotone-table-bar" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Vue sur la foret et sur la rivière
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
-            <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Vue sur la foret et sur la rivière
-            </figcaption>
-        </figure>
-    </li>
-    <li>
-        <figure>
-            <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Vue sur la foret et sur la rivière
+                Mobilier de jardin
             </figcaption>
         </figure>
     </li>
