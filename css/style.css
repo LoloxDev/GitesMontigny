@@ -480,3 +480,27 @@ footer a{
 .contactForm > div div:nth-of-type(3){
     margin: 20px 0;
 }
+
+/* Residence */
+
+.flexResi{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.flexResi figure{
+    text-align: center;
+    width: 100px;
+}
+
+.flexResi figure img{
+    height: 32px;
+    margin: auto;
+    width: unset;
+}
+
+.flexResi figcaption{
+
+}

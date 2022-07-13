@@ -13,14 +13,14 @@ window.addEventListener('scroll', () => {
         slidingHeader.classList.remove('active')
     }
 
-    var scrollBottom = $(window).height() - $(window).scrollTop() - 221 ;
+    /*var scrollBottom = $(window).height() - $(window).scrollTop() - 221 ;
     console.log(scrollBottom);
 
     if (scrollBottom <= 50){
         slidingFooter.classList.add('activeF')
     } else if (scrollBottom >= 50) {
         slidingFooter.classList.remove('activeF')
-    }
+    }*/
 
 })
 

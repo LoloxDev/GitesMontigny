@@ -14,7 +14,7 @@
 			        			<span class="fa fa-map-marker"></span>
 			        		</div>
 			        		<div class="text">
-				            <p><span>Address:</span> 1 rue du Champois, 21140 Montigny sur Armançon</p>
+				            <p><span>Adresse:</span> 1 rue du Champois, 21140 Montigny sur Armançon</p>
 				          </div>
 			          </div>
 							</div>
@@ -24,7 +24,7 @@
 			        			<span class="fa fa-phone"></span>
 			        		</div>
 			        		<div class="text">
-				            <p><span>Phone:</span> <a href="tel://+33686055230">06.86.05.52.30</a></p>
+				            <p><span>Tel:</span> <a href="tel://+33686055230">06.86.05.52.30</a></p>
 				          </div>
 			          </div>
 							</div>
@@ -44,7 +44,7 @@
 			        			<span class="fa fa-globe"></span>
 			        		</div>
 			        		<div class="text">
-				            <p><span>Website</span> <a href="#">GitesMontigny.com</a></p>
+				            <p><span>Site web:</span> <a href="#">GitesMontigny.com</a></p>
 				          </div>
 			          </div>
 							</div>
