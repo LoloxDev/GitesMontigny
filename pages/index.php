@@ -133,7 +133,7 @@
 
         <footer class="flex">
 
-            <h2 class="footer-heading"><a href="#" class="logo <?php echo($color) ?>">GitesMontigny.com</a></h2>
+            <h2 class="footer-heading"><a href="#" class="logo">GitesMontigny.com</a></h2>
             <ul class="menu flex del">
                 <li href="#">Accueil</li>
                 <li href="#">Mentions légales</li>

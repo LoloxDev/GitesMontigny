@@ -8,13 +8,9 @@
     display: flex;
 }
 
-section{
+section:not(#menu){
     width: 100%;
-}
-
-.padding{
-    padding: 300px 0 0 0;
-    text-align: center;
+    margin-top: 30px;
     overflow: hidden;
 }
 
@@ -85,8 +81,6 @@ section h2{
 /* HEADER */
 
 header{
-    position: fixed;
-    top: 0;
     width: 100%;
     transition: 5s;
     z-index: 5;
@@ -211,26 +205,27 @@ footer{
     text-align: center;
     margin: auto;
     flex-direction: column;
-    color: silver;
+    color: white;
     padding: 0 70px;
     letter-spacing: 0.5px;
     background: no-repeat center / cover url("../img/couverture.jpg");
+    box-shadow: 0 0 0 200px rgb(0,0,0,40%) inset;
     filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);
     transition: 0.2s;
 }
 
 footer h2, footer p{
-    margin: 30px 0;
+    margin: 10px 0;
     position: relative;
 }
 
 footer h2::after{
     content: "";
-    background-color: silver;
+    background-color: white;
     height: 1px;
     width: 100px;
     position: absolute;
-    bottom: -15px;
+    bottom: -7px;
     left: 50%;
     margin-left: -50px;
 
@@ -245,17 +240,17 @@ footer h2::after{
 }
 
 footer a{
-    color: silver;
+    color: white;
 }
 
 .reseaux{
     display: flex;
     margin:  20px auto 0 auto;
+    gap: 20px;
 }
 
 .reseaux li {
-    width: 50px;
-    margin-right: 10px;
+    width: 30px;
     transition: 0.2s;
 }
 
@@ -267,6 +262,7 @@ footer a{
 
 .pAcc{
     margin: 50px 50px;
+    text-align: center;
 }
 
 
@@ -430,61 +426,7 @@ footer a{
     margin-top: 20px;
 }
 
-#notes li:nth-of-type(4) figure{
-    width: 50px;
-}
 
-#notes li:nth-of-type(4) figcaption{
-    width: 100px;
-    margin-left: -23px;
-}
-
-/* FORMULAIRE CONTACT */
-
-.imgform{
-    background: url("../img/Kelidoine/IMG_6758.jpg") 50% / cover no-repeat;
-}
-
-.no-gutters {
-    margin-bottom: 50px;
-    border: 2px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.p-4{
-    background-color: rgb(252,219,178,0.5);
-    padding-right: 0 !important;
-}
-
-.formimg{
-    padding: 0 !important;
-}
-
-.nopad{
-    padding: 0 !important;
-}
-
-.marginBottom{
-    margin-bottom: 50px;
-}
-
-.contactForm .btn{
-    margin-top: 30px;
-    text-align: center;
-}
-
-.text-left{
-    text-align: left;
-}
-
-.text-center{
-    text-align: center !important;
-}
-
-.contactForm > div div:nth-of-type(3){
-    margin: 20px 0;
-}
 
 /* Residence */
 
@@ -492,7 +434,6 @@ footer a{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    margin: 50px 0;
 }
 
 .flexResi figure{
@@ -516,18 +457,21 @@ footer a{
     0% {
         transform: translateX(0);
    }
-    100% {
-        transform: translateX(calc(-250px * 7));
+    50% {
+        transform: translateX(-36%);
    }
+    100% {
+    transform: translateX(0);
+    }
 }
 .slider {
     background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-    height: 100px;
+    height: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 960px;
+    width: 100%;
+    padding: 20px 0;
 }
 .slider::before, .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -536,19 +480,15 @@ footer a{
     width: 200px;
     z-index: 2;
 }
-.slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-}
 .slider::before {
     left: 0;
     top: 0;
 }
 .slider .slide-track {
-    animation: scroll 40s linear infinite;
+    animation: scroll 10s linear infinite;
     display: flex;
-    width: calc(250px * 14);
+    width: 150%;
+    justify-content: space-around;
 }
 .slider .slide {
     height: 100px;

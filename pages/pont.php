@@ -17,7 +17,7 @@
     </head>
 
     <body>
-    <section>
+    <section id="menu">
             <div class="flex pages">
                 <a href="index.php?ind=kelidoine&pg=acc" class="imgaccueil">
                     <h2>

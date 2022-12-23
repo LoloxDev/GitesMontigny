@@ -84,7 +84,7 @@
         
         <figure>
             <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" alt="Le logo de Gites.fr">
-                <img src="../img/logo_agence/gites-de-france.svg" alt=""/>
+                <img src="../img/logo_agence/gites-fr.png" alt=""/>
             </a>
             <figcaption>
                 <img src="../img/Pisserotte/avis/notes_gites_pisserotte.png" alt=""/>
