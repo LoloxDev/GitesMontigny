@@ -8,9 +8,19 @@
     display: flex;
 }
 
-section{
-    height: 100vh;
+section:not(#menu){
     width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+section h2{
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.none{
+    display: none;
 }
 
 /* ACCEUIL (INDEX) */
@@ -71,9 +81,17 @@ section{
 /* HEADER */
 
 header{
-    position: fixed;
     width: 100%;
     transition: 5s;
+    z-index: 5;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    color:white;
 }
 
 nav{
@@ -94,7 +112,11 @@ nav{
 }
 
 .active nav img{
-    width: 150px !important;
+    width: 100px !important;
+}
+
+.activeF{
+    height: 100px !important;
 }
 
 .navbarre{
@@ -183,24 +205,27 @@ footer{
     text-align: center;
     margin: auto;
     flex-direction: column;
-    background-color: #121212;
-    color: silver;
+    color: white;
     padding: 0 70px;
     letter-spacing: 0.5px;
+    background: no-repeat center / cover url("../img/couverture.jpg");
+    box-shadow: 0 0 0 200px rgb(0,0,0,40%) inset;
+    filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);
+    transition: 0.2s;
 }
 
 footer h2, footer p{
-    margin: 30px 0;
+    margin: 10px 0;
     position: relative;
 }
 
 footer h2::after{
     content: "";
-    background-color: silver;
+    background-color: white;
     height: 1px;
     width: 100px;
     position: absolute;
-    bottom: -15px;
+    bottom: -7px;
     left: 50%;
     margin-left: -50px;
 
@@ -215,17 +240,17 @@ footer h2::after{
 }
 
 footer a{
-    color: silver;
+    color: white;
 }
 
 .reseaux{
     display: flex;
     margin:  20px auto 0 auto;
+    gap: 20px;
 }
 
 .reseaux li {
-    width: 50px;
-    margin-right: 10px;
+    width: 30px;
     transition: 0.2s;
 }
 
@@ -233,3 +258,239 @@ footer a{
     transform: scale(1.1);
 }
 
+/* INDEX PAGE ACCUEIL */
+
+.pAcc{
+    margin: 50px 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* CARROUSSEL */ 
+
+#carroussel{
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+#carroussel li{
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+#carroussel figure{
+    position: relative;
+    border: 2px black solid;
+}
+
+#carroussel li:first-of-type figure{
+    animation: animation-carte-1 19.5s 0s infinite;
+}
+
+#carroussel li:nth-of-type(2) figure{
+    animation: animation-carte-2 19.5s 0s infinite;
+}
+
+#carroussel li:nth-of-type(3) figure{
+    animation: animation-carte-3 19.5s 0s infinite;
+}
+
+@keyframes animation-carte-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    2.25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes animation-carte-2 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes animation-carte-3 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    70.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    97.75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+/* NOTES */
+
+#notes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    align-items: center;
+}
+
+#notes figure{
+    width: 100px;
+}
+
+#notes li:first-of-type{
+    margin-top: -20px;
+}
+
+#notes li:first-of-type figure{
+    width: 180px;
+    height: 40px;
+}
+
+#notes li:nth-of-type(2) figure{
+    width: 110px;
+}
+
+#notes li:nth-of-type(2) figcaption{
+    margin-top: 10px;
+    margin-left: -25px;
+    width: 180px;
+}
+
+#notes li:nth-of-type(3){
+    margin-top: 20px;
+}
+
+
+
+/* Residence */
+
+.flexResi{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.flexResi figure{
+    text-align: center;
+    width: 100px;
+}
+
+.flexResi figure img{
+    height: 32px;
+    margin: auto;
+    width: unset;
+}
+
+.flexResi figcaption{
+
+}
+
+/* test caroussel */ 
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+   }
+    50% {
+        transform: translateX(-36%);
+   }
+    100% {
+    transform: translateX(0);
+    }
+}
+.slider {
+    background: white;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+}
+.slider::before, .slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: 150%;
+    justify-content: space-around;
+}
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}

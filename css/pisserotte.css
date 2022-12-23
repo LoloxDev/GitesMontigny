@@ -5,15 +5,10 @@
 /* BACKGROUNDS */
 
 header{
-    background: no-repeat 25% 40% / cover url("../img/sunset2.jpg");
+    background: no-repeat 25% 40% / cover url("../img/Pisserotte/sunset.jpg");
     filter: drop-shadow(16px 16px 20px #fed482);
 }
 
 header:hover{
-    background: no-repeat 25% 63% / cover url("../img/sunset2.jpg");
-}
-
-footer{
-    background: no-repeat center / cover url("../img/couverture.jpg");
-    filter: grayscale(50%) drop-shadow(0 0px 40px #6f5b39);;
+    background: no-repeat 25% 63% / cover url("../img/Pisserotte/sunset.jpg");
 }
