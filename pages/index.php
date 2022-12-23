@@ -20,8 +20,6 @@
         }
 
         if ($_GET['pg'] == 'dis'){
-            echo '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">';
         } elseif ($_GET['pg'] == 'res') {
             echo'<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>';
         }
@@ -72,13 +70,13 @@
                 <div class="navbarre">
                                         
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=tar" class="<?php echo($color) ?> navoptions Y">
-                        Tarifs
+                        
                     </a>
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions X">
                         Résidence
                     </a>
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions Y">
-                        Disponibilités
+                        Disponibilités & Tarifs
                     </a>
 
                 </div>

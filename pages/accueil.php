@@ -40,59 +40,77 @@
 
 <!-- NOTES -->
 
-<ul id="notes">
-    <li>
 
-        <figure>
-            <a href="https://www.abritel.fr/location-vacances/p1630920" alt="Le logo d'Abritel'">
-                <img src="../img/logo_agence/abritel.svg" alt=""/>
-            </a>
-            <figcaption>
-                <img src="../img/Pisserotte/avis/notes_abritel_pisserotte.png" alt=""/>
-            </figcaption>
-        </figure>
+<div id="notesBloc">
+    <h2>
+        Notes et Avis
+    </h2>
 
-    </li>
+    <ul id="notes">
 
-    <li>
+        <li>
 
-        <figure>
-            <a href="https://www.airbnb.fr/rooms/21588355?source_impression_id=p3_1657617711_M%2FVxCrrccF6ugbq%2B" alt="Le logo AirBnb">
-                <img src="../img/logo_agence/airbnb.svg" alt=""/>
-            </a>
-            <figcaption>
-                <img src="../img/Pisserotte/avis/notes_air_pisserotte.png" alt=""/>
-            </figcaption>
-        </figure>
-        
-    </li>
+            <figure>
+                <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" alt="Le logo de Gites.fr">
+                    <img src="../img/logo_agence/3-etoiles.jpg" alt=""/>
+                </a>
+            </figure>
 
-    <li>
+        </li>
 
-        <figure>
-            <a href="https://www.booking.com/hotel/fr/1-rue-du-champois.fr.html" alt="Le logo de Booking">
-                <img src="../img/logo_agence/booking.svg" alt=""/>
-            </a>
-            <figcaption>
-                <img src="../img/Pisserotte/avis/notes_booking_pisserotte.png" alt=""/>
-            </figcaption>
-        </figure>
-        
-    </li>
+        <li>
 
-    <li>
-        
-        <figure>
-            <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" alt="Le logo de Gites.fr">
-                <img src="../img/logo_agence/gites-fr.png" alt=""/>
-            </a>
-            <figcaption>
-                <img src="../img/Pisserotte/avis/notes_gites_pisserotte.png" alt=""/>
-            </figcaption>
-        </figure>
-        
-    </li>
-</ul>
+            <figure>
+                <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" alt="Le logo de Gites.fr">
+                    <img src="../img/logo_agence/gites-fr.png" alt=""/>
+                </a>
+                <figcaption>
+                    <img src="../img/Pisserotte/avis/notes_gites_pisserotte.png" alt=""/>
+                </figcaption>
+            </figure>
+
+        </li>
+
+        <li>
+
+            <figure>
+                <a href="https://www.airbnb.fr/rooms/21588355?source_impression_id=p3_1657617711_M%2FVxCrrccF6ugbq%2B" alt="Le logo AirBnb">
+                    <img src="../img/logo_agence/airbnb.svg" alt=""/>
+                </a>
+                <figcaption>
+                    <img src="../img/Pisserotte/avis/notes_air_pisserotte.png" alt=""/>
+                </figcaption>
+            </figure>
+
+        </li>
+
+        <li>
+
+            <figure>
+                <a href="https://www.booking.com/hotel/fr/1-rue-du-champois.fr.html" alt="Le logo de Booking">
+                    <img src="../img/logo_agence/booking.svg" alt=""/>
+                </a>
+                <figcaption>
+                    <img src="../img/Pisserotte/avis/notes_booking_pisserotte.png" alt=""/>
+                </figcaption>
+            </figure>
+
+        </li>
+
+        <li>
+
+            <figure>
+                <a href="https://www.abritel.fr/location-vacances/p1630920" alt="Le logo d'Abritel'">
+                    <img src="../img/logo_agence/abritel.svg" alt=""/>
+                </a>
+                <figcaption>
+                    <img src="../img/Pisserotte/avis/notes_abritel_pisserotte.png" alt=""/>
+                </figcaption>
+            </figure>
+
+        </li>
+    </ul>
+</div>
 
 
 

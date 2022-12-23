@@ -15,6 +15,7 @@ if($_POST) {
 
    $name = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
+   $tel = trim(stripslashes($_POST['tel']));
    $subject = trim(stripslashes($_POST['subject']));
    $contact_message = trim(stripslashes($_POST['message']));
 
@@ -22,8 +23,9 @@ if($_POST) {
 	if ($subject == '') { $subject = "Formulaire de contact"; }
 
    // Set Message
-   $message .= "Mail provenant de: " . $name . "<br />";
+   $message = "Mail provenant de: " . $name . "<br />";
 	$message .= "Adresse email: " . $email . "<br />";
+   $message .= "Téléphone: " . $tel . "<br />";
    $message .= "Message: <br />";
    $message .= nl2br($contact_message);
    $message .= "<br /> ----- <br /> Cet email à été envoyé depuis le site " . url() . " <br />";

@@ -12,6 +12,10 @@ section:not(#menu){
     width: 100%;
     margin-top: 30px;
     overflow: hidden;
+    padding: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 section h2{
@@ -155,6 +159,7 @@ header:hover .navoptions{
     text-shadow: black 0px 0px 2px;
     font-size: 1em;
     transition: 0.2s;
+    white-space: nowrap;
 }
 
 
@@ -392,37 +397,47 @@ footer a{
 
 /* NOTES */
 
+#notesBloc{
+    margin-top: 50px;
+}
+
 #notes{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0;
+    margin: 20px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #notes figure{
-    width: 100px;
+    width: 140px;
 }
 
 #notes li:first-of-type{
+    width: 100%;
+    margin: 20px 0;
+}
+
+#notes li:last-of-type{
     margin-top: -20px;
 }
 
-#notes li:first-of-type figure{
+#notes li:last-of-type figure{
     width: 180px;
     height: 40px;
 }
 
-#notes li:nth-of-type(2) figure{
+#notes li:nth-of-type(3) figure{
     width: 110px;
 }
 
-#notes li:nth-of-type(2) figcaption{
+#notes li:nth-of-type(3) figcaption{
     margin-top: 10px;
     margin-left: -25px;
     width: 180px;
 }
 
-#notes li:nth-of-type(3){
+#notes li:nth-of-type(4){
     margin-top: 20px;
 }
 
@@ -434,6 +449,7 @@ footer a{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 .flexResi figure{
@@ -471,7 +487,6 @@ footer a{
     overflow: hidden;
     position: relative;
     width: 100%;
-    padding: 20px 0;
 }
 .slider::before, .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -485,7 +500,7 @@ footer a{
     top: 0;
 }
 .slider .slide-track {
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
     display: flex;
     width: 150%;
     justify-content: space-around;
@@ -493,4 +508,23 @@ footer a{
 .slider .slide {
     height: 100px;
     width: 250px;
+}
+
+
+/* FORMULAIRE DE CONTACT */
+
+#contact{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#contact input[type="submit"]{
+
+    width: 150px;
+    margin: 20px auto;
+    cursor: pointer;
+
 }
