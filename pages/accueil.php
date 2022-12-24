@@ -15,7 +15,12 @@
 <ul id="carroussel">
     <li>
         <figure>
-            <img src="../img/Kelidoine/IMG_6758.jpg" alt="Une photo du paysage de Montigny" class="carrous"/>
+            <?php if($_GET['ind'] == 'kelidoine') {
+                echo'<img src="../img/Kelidoine/IMG_6758.jpg" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } elseif($_GET['ind'] == 'pisserotte') {
+                    echo'<img src="../img/pisserotte/IMG_0362.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } ?>
+            
             <figcaption>
             </figcaption>
         </figure>
@@ -23,7 +28,11 @@
 
     <li>
         <figure>
-            <img src="../img/Kelidoine/IMG_6800.jpg" alt="Une photo du gite de Kélidoine" class="carrous"/>
+            <?php if($_GET['ind'] == 'kelidoine') {
+                echo'<img src="../img/Kelidoine/IMG_6800.jpg" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } elseif($_GET['ind'] == 'pisserotte') {
+                    echo'<img src="../img/pisserotte/IMG_0032.JPG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } ?>
             <figcaption>
             </figcaption>
         </figure>
@@ -31,7 +40,11 @@
 
     <li>
         <figure>
-            <img src="../img/Kelidoine/IMG_6782.jpg" alt="Un vélo devant le gite" class="carrous"/>
+            <?php if($_GET['ind'] == 'kelidoine') {
+                echo'<img src="../img/Kelidoine/IMG_6782.jpg" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } elseif($_GET['ind'] == 'pisserotte') {
+                    echo'<img src="../img/pisserotte/IMG_7164.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+            } ?>
             <figcaption>
             </figcaption>
         </figure>

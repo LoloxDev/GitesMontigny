@@ -69,8 +69,8 @@
 
                 <div class="navbarre">
                                         
-                    <a href="index.php?ind=<?php echo($ind) ?>&pg=tar" class="<?php echo($color) ?> navoptions Y">
-                        
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="<?php echo($color) ?> navoptions Y">
+                        Galerie
                     </a>
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions X">
                         Résidence
@@ -84,10 +84,10 @@
                 <div class="navbarre">
 
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="<?php echo($color) ?> navoptions X">
-                        Activités
+                        Activités & Tourisme
                     </a>
 
-                    <a href="pont.php" class="<?php echo($color) ?> navoptions Y">
+                    <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="<?php echo($color) ?> navoptions Y">
                         Lac de Pont
                     </a>
 
@@ -119,8 +119,8 @@
                                 include 'dispo.php';
                             } elseif($_GET['pg'] == 'res'){
                                 include 'residence.php';
-                            } elseif($_GET['pg'] == 'tar'){
-                                include 'tarifs.php';
+                            } elseif($_GET['pg'] == 'gal'){
+                                include 'galerie.php';
                             } elseif($_GET['pg'] == 'act'){
                                 include 'actloc.php';
                             } elseif(isset($_GET['pg'])){

@@ -22,13 +22,13 @@
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
-                    <img class="imageaccueil1" src="img/Kelidoine/chelidoine.jpg" alt="photo du gite de Kélidoine">
+                    <img class="imageaccueil1" src="img/Kelidoine/IMG_7645.JPEG" alt="photo du gite de Kélidoine">
                 </a>
-                <a href="pages/index.php?ind=pont" class="imgaccueil middle">
+                <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="imgaccueil middle">
                     <h2>
                         Lac de Pont
                     </h2>
-                    <img class="imageaccueil1" src="img/Pont/lacDePont.jpg" alt="photo du Lac de Pont">
+                    <img class="imageaccueil1" src="img/Pont/pont_chien.JPEG" alt="photo du Lac de Pont">
                 </a>
                 <a href="pages/index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>

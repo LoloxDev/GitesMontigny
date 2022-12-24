@@ -21,6 +21,7 @@ section:not(#menu){
 section h2{
     width: fit-content;
     border-bottom: 1px solid black;
+    margin-bottom: 50px;
 }
 
 .none{
@@ -95,7 +96,7 @@ header a{
 }
 
 header a:hover{
-    color:white;
+color: white;
 }
 
 nav{
@@ -179,7 +180,7 @@ header:hover .navoptions{
 /* BARRE GAUCHE */
 
 .navbarre:first-of-type .navoptions:first-of-type{
-    right: 15%;
+    right: 10%;
 }
 
 .navbarre:first-of-type .navoptions:nth-of-type(2){
@@ -193,7 +194,7 @@ header:hover .navoptions{
 /* BARRE DROITE */
 
 .navbarre:last-of-type .navoptions:first-of-type{
-    left: 15%;
+    left: 10%;
 }
 
 .navbarre:last-of-type .navoptions:nth-of-type(2){
@@ -290,6 +291,10 @@ footer a{
     max-width: 800px;
     margin: auto;
     
+}
+
+#carroussel li img{
+    max-height: 600px;
 }
 
 #carroussel figure{
@@ -527,4 +532,15 @@ footer a{
     margin: 20px auto;
     cursor: pointer;
 
+}
+
+/* Page activité */
+
+#actContain{
+    display: flex;
+    justify-content: space-around;
+}
+
+#actContain div h3{
+    margin-bottom: 20px;
 }
