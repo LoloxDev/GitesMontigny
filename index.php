@@ -13,6 +13,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playball&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -22,13 +24,13 @@
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
-                    <img class="imageaccueil1" src="img/Kelidoine/IMG_7645.JPEG" alt="photo du gite de Kélidoine">
+                    <img class="imageaccueil1" src="img/Kelidoine/24.JPEG" alt="photo du gite de Kélidoine">
                 </a>
                 <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="imgaccueil middle">
                     <h2>
                         Lac de Pont
                     </h2>
-                    <img class="imageaccueil1" src="img/Pont/pont_chien.JPEG" alt="photo du Lac de Pont">
+                    <img class="imageaccueil1" src="img/Pont/36.JPEG" alt="photo du Lac de Pont">
                 </a>
                 <a href="pages/index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>
@@ -38,5 +40,6 @@
                 </a>
             </div>
         </section>
+        <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

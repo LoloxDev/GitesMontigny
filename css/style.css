@@ -1,11 +1,19 @@
 /* INDEX */
 
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', cursive;
 }
 
 .flex{
     display: flex;
+}
+
+.firstLetter{
+    font-family: 'Annie Use Your Telescope';
 }
 
 section:not(#menu){
@@ -423,26 +431,24 @@ footer a{
     margin: 20px 0;
 }
 
-#notes li:last-of-type{
+#notes #abritel{
     margin-top: -20px;
-}
-
-#notes li:last-of-type figure{
     width: 180px;
     height: 40px;
 }
 
-#notes li:nth-of-type(3) figure{
+
+#notes #airbnb{
     width: 110px;
 }
 
-#notes li:nth-of-type(3) figcaption{
+#airbnb figcaption{
     margin-top: 10px;
     margin-left: -25px;
     width: 180px;
 }
 
-#notes li:nth-of-type(4){
+#booking{
     margin-top: 20px;
 }
 
@@ -543,4 +549,52 @@ footer a{
 
 #actContain div h3{
     margin-bottom: 20px;
+}
+
+/* Page galerie */
+
+.picGalerie{
+    width: 100%;
+    height: 100%;
+}
+
+.picGalerie img{
+    border-radius: 14px;
+    border: 2px solid white;
+}
+
+#picContain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    background-color: silver;
+    justify-content: space-around;
+    border-radius: 18px;
+}
+
+#picContain > li{
+    width: 200px;
+    height: 250px;
+}
+
+#picContain li{
+    cursor: pointer;
+}
+
+#titles{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.activePic{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
 }

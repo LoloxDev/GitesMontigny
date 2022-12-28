@@ -27,4 +27,25 @@
 //})
 
 
+function openPic(){
+
+    let PicId = document.getElementById(event.currentTarget.id);
+
+    console.log(PicId);
+
+
+  
+    if (PicId.classList.contains('activePic') == false) {
+  
+        PicId.classList.add("activePic");
+  
+    } else {
+  
+        PicId.classList.remove("activePic");
+  
+    }
+  
+  }
+
+
 
