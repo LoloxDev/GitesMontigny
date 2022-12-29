@@ -69,13 +69,13 @@
 
                 <div class="navbarre">
                                         
-                    <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="<?php echo($color) ?> navoptions Y">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="<?php echo($color) ?> navoptions X underline">
                         Galerie
                     </a>
-                    <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions X">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions Y underline">
                         Résidence
                     </a>
-                    <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions Y">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions X underline">
                         Disponibilités & Tarifs
                     </a>
 
@@ -83,23 +83,23 @@
 
                 <div class="navbarre">
 
-                    <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="<?php echo($color) ?> navoptions X">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="<?php echo($color) ?> navoptions X underline">
                         Activités & Tourisme
                     </a>
 
-                    <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="<?php echo($color) ?> navoptions Y">
+                    <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="<?php echo($color) ?> navoptions Y underline">
                         Lac de Pont
                     </a>
 
                     <?php if ($_GET['ind'] == 'kelidoine') {
 
-                            echo'<a href="index.php?ind=pisserotte&pg=acc" class=" '.($color).' navoptions X">
+                            echo'<a href="index.php?ind=pisserotte&pg=acc" class=" '.($color).' navoptions X underline">
                                     Pisserotte
                                  </a>';
 
                         } elseif ($_GET['ind'] == 'pisserotte') {
 
-                            echo'<a href="index.php?ind=kelidoine&pg=acc" class=" '.($color).' navoptions X">
+                            echo'<a href="index.php?ind=kelidoine&pg=acc" class=" '.($color).' navoptions X underline">
                                     Kelidoine
                                  </a>';
                         }

@@ -30,22 +30,23 @@
 function openPic(){
 
     let PicId = document.getElementById(event.currentTarget.id);
-
-    console.log(PicId);
-
-
+    let body = document.querySelector('body');
   
     if (PicId.classList.contains('activePic') == false) {
   
         PicId.classList.add("activePic");
+        body.style.overflow = "hidden";
   
     } else {
   
         PicId.classList.remove("activePic");
+        body.style.overflow = "unset";
   
     }
   
   }
+
+
 
 
 

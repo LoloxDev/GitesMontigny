@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="font/font.css" />
         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="media-queries/media-1000max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 650px)" href="media-queries/media-650max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 500px)" href="media-queries/media-500max.css"/>
@@ -15,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playball&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/280516d329.js" crossorigin="anonymous"></script>
     </head>
 
     <body>

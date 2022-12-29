@@ -1,6 +1,10 @@
 /* INDEX */
 
 * {
+    font-family: 'Montserrat', cursive;
+}
+
+p{
     font-family: 'Annie Use Your Telescope', cursive;
 }
 
@@ -30,6 +34,7 @@ section h2{
     width: fit-content;
     border-bottom: 1px solid black;
     margin-bottom: 50px;
+    font-size: 2.5em;
 }
 
 .none{
@@ -169,6 +174,7 @@ header:hover .navoptions{
     font-size: 1em;
     transition: 0.2s;
     white-space: nowrap;
+    padding: 0 3px;
 }
 
 
@@ -554,8 +560,9 @@ footer a{
 /* Page galerie */
 
 .picGalerie{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: unset;
 }
 
 .picGalerie img{
@@ -576,25 +583,133 @@ footer a{
 #picContain > li{
     width: 200px;
     height: 250px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-#picContain li{
+#picContain > li:hover{
+    transform: scale(1.03);
+}
+
+#picContain li figure{
     cursor: pointer;
 }
 
 #titles{
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 5px;
     justify-content: center;
+    margin: 20px 0;
+}
+
+#titles a{
+    transition: 0.2s;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+#titles a:hover{
+    color: white;
 }
 
 .activePic{
     width: 100% !important;
     height: 100% !important;
-    padding: 50px;
     position: fixed;
     top: 0;
     z-index: 9;
+    background-color: RGB(54, 54, 54, 0.9);
+}
 
+#picContain .activePic figure{
+    cursor: default;
+}
+
+#picContain .activePic:hover{
+    transform: scale(1);
+}
+
+.arrowPic{
+    background-position: center;
+    background-size: 124%;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+}
+
+.arrowPic:nth-of-type(2){
+    transform: rotate(180deg);
+}
+
+.activePic .arrowPic{
+    display: block;
+}
+
+.activePic::after{
+    position: absolute;
+    content: '';
+    top: 20px;
+    right: 5%;
+    margin-right: -32px;
+    width: 32px;
+    height: 32px;
+    background: #8d0000 url('../img/close.png');
+    background-size: 114%;
+    background-position: center;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.activePic .picGalerie::after, .activePic .picGalerie::before{
+    display: block;
+}
+
+
+/* Soulignement */
+
+.underline:not(.navoptions) {
+    position: relative;
+  }
+  .underline:after {
+    content: '';
+    transform-origin: 50%; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.5px; 
+    z-index: 0;
+    opacity: 0.8;
+    transition: .3s;
+  }
+
+  .X:after{
+    top: -8px;
+  }
+
+  .Y:after{
+    bottom: -8px;
+  }
+
+  .X:hover::after, .Y:hover:after{
+    background-color: white;
+  }
+  .underline:hover:after {
+    transform: scaleX(1);
+  }
+
+.yellow:after{
+    background: #ffde59;
+}
+
+.blue:after{
+    background: rgb(0,74,173);
 }
