@@ -580,13 +580,17 @@ footer a{
     border-radius: 18px;
 }
 
-#picContain > li{
+#picContain > li:not(:first-child){
     width: 200px;
     height: 250px;
     transition: 0.2s;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#picContain > li:first-child{
+    width: 100%;
 }
 
 #picContain > li:hover{
@@ -616,20 +620,29 @@ footer a{
     color: white;
 }
 
-.activePic{
+#diapoBox{
     width: 100% !important;
     height: 100% !important;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 9;
     background-color: RGB(54, 54, 54, 0.9);
+    transition: 0.2s;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
 }
 
-#picContain .activePic figure{
+.activeDia{
+    display: flex;
+}
+
+#picContain #diapoBox figure{
     cursor: default;
 }
 
-#picContain .activePic:hover{
+#picContain #diapoBox:hover{
     transform: scale(1);
 }
 
@@ -639,18 +652,13 @@ footer a{
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
-    display: none;
 }
 
 .arrowPic:nth-of-type(2){
     transform: rotate(180deg);
 }
 
-.activePic .arrowPic{
-    display: block;
-}
-
-.activePic::after{
+#closer{
     position: absolute;
     content: '';
     top: 20px;
@@ -667,9 +675,6 @@ footer a{
     transition: 0.2s;
 }
 
-.activePic .picGalerie::after, .activePic .picGalerie::before{
-    display: block;
-}
 
 
 /* Soulignement */

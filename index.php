@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/280516d329.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/png" href="img/pisserotte/logo_pisserotte.png"/>
     </head>
 
     <body>
