@@ -652,12 +652,20 @@ footer a{
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.arrowPic:hover{
+    transform: scale(1.05);
 }
 
 .arrowPic:nth-of-type(2){
     transform: rotate(180deg);
 }
 
+.arrowPic:nth-of-type(2):hover{
+    transform: rotate(180deg) scale(1.05);
+}
 #closer{
     position: absolute;
     content: '';

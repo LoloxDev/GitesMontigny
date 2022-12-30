@@ -72,7 +72,7 @@ function openPic(){
 
 // Fonction permettant de fermer le diaporama
 
-function closePic(){
+document.querySelector('#closer').addEventListener('click', event => {
 
     let diapoBox = document.getElementById('diapoBox');
     let body = document.querySelector('body');
@@ -83,8 +83,11 @@ function closePic(){
         diapoBox.classList.remove("activeDia");
         body.style.overflow = "unset";
     }
+    
+  });
 
-}  
+
+
 
 // Fonction permettant de changer la photo ( suivant ou précédent )
 
@@ -112,6 +115,10 @@ function swapPic(){
 
     picBox.setAttribute("src", `../img/${gite}/${idPic}.JPEG`);
 }
+
+document.querySelectorAll('.arrowPic').forEach(function(link){
+    link.addEventListener('click', swapPic)
+})
 
 
 

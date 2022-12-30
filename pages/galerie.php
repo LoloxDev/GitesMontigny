@@ -51,7 +51,7 @@
 <?php
     echo'
         <div id="diapoBox">
-            <div class="arrowPic" id="previous" onClick="swapPic()">
+            <div class="arrowPic" id="previous">
                 <img src="../img/arrow-left.png" alt"Une flèche vers la gauche" loading="lazy">
             </div>
             <figure class="picGalerie">
@@ -59,10 +59,10 @@
                 <figcaption>
                 </figcaption>
             </figure>
-            <div class="arrowPic" id="next" onClick="swapPic()">
+            <div class="arrowPic" id="next">
                 <img src="../img/arrow-left.png" alt"Une flèche vers la droite" loading="lazy">
             </div>
-            <div id="closer" onClick="closePic()">
+            <div id="closer">
             </div>
         </div>';
 ?>
