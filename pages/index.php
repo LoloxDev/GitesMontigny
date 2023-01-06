@@ -32,9 +32,7 @@
         <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playball&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Comic+Neue:wght@300&family=Montserrat&family=Oswald&family=Playball&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Comic+Neue:wght@300&family=Montserrat&family=Montserrat+Alternates&family=Oswald&family=Playball&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
         
@@ -127,6 +125,11 @@
                                 $_GET['pg'] == 'acc';
                             }
                         ?>
+
+                        <div class="picDeco">
+                            <img src="../img/deco-corner.png" alt="">
+                        </div>
+
         </section>
 
         <footer class="flex">

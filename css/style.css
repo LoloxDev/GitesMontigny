@@ -5,7 +5,7 @@
 }
 
 p{
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4{
@@ -17,24 +17,24 @@ h1, h2, h3, h4{
 }
 
 .firstLetter{
-    font-family: 'Annie Use Your Telescope';
+    /*font-family: 'Annie Use Your Telescope';*/
 }
 
 section:not(#menu){
     width: 100%;
-    margin-top: 30px;
     overflow: hidden;
     padding: 50px;
     gap: 20px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 section h2{
     width: fit-content;
-    border-bottom: 1px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 85px;
     font-size: 2.5em;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .none{
@@ -725,4 +725,30 @@ footer a{
 
 .blue:after{
     background: rgb(0,74,173);
+}
+
+/* Images de déco */
+
+
+#containTitle{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.picDecoTitle{
+    width: 186px;
+    top: -35px;
+    left: -70px;
+    height: 184px;
+    z-index: -2;
+    position: absolute;
+}
+
+.picDeco{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    top: 0;
+    right: 0;
 }

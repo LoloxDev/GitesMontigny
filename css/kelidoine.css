@@ -7,7 +7,7 @@
 
 header{
         background: no-repeat 25% 0% / cover url("../img/Kelidoine/moon.jpg");
-        filter: drop-shadow(16px 16px 20px #1a6eab);
+        filter: drop-shadow(0 16px 20px #1a6eab);
         transition: 5s;
 }
 

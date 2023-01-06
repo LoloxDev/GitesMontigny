@@ -6,7 +6,7 @@
 
 header{
     background: no-repeat 25% 40% / cover url("../img/Pisserotte/sunset.jpg");
-    filter: drop-shadow(16px 16px 20px #fed482);
+    filter: drop-shadow(0 16px 20px #fed482);
 }
 
 header:hover{

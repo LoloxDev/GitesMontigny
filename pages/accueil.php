@@ -1,6 +1,16 @@
-<h2>
-    Présentation du gîte
-</h2>
+<?php
+            echo'
+                <div id="containTitle">
+                    <h2>
+                        Présentation du gîte
+                    </h2>
+                    <div class="picDecoTitle">
+                        <img src="../img/'.($_GET['ind']).'/deco.png" alt="">
+                    </div>
+                </div>
+            '
+
+?>
 
 <p class="pAcc">
     <?php if($_GET['ind'] == 'kelidoine') {
@@ -55,9 +65,10 @@
 
 
 <div id="notesBloc">
-    <h2>
-        Notes et Avis
-    </h2>
+        <h2>
+            Notes et Avis
+        </h2>
+
 
     <ul id="notes">
 
