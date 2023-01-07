@@ -8,7 +8,6 @@
 header{
         background: no-repeat 25% 0% / cover url("../img/Kelidoine/moon.jpg");
         filter: drop-shadow(0 16px 20px #1a6eab);
-        transition: 5s;
 }
 
 header:hover{

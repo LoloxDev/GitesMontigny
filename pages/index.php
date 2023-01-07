@@ -19,9 +19,10 @@
             echo '<link rel="stylesheet" href="../css/pisserotte.css">';
         }
 
-        if ($_GET['pg'] == 'dis'){
-        } elseif ($_GET['pg'] == 'res') {
-            echo'<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>';
+        if ($_GET['pg'] == 'res' || $_GET['pg'] == 'acc') {
+            echo'<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+            <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+            ';
         }
 
         
@@ -34,6 +35,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        
 
         
     </head>

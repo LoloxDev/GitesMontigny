@@ -100,7 +100,7 @@ section h2{
 
 header{
     width: 100%;
-    transition: 5s;
+    transition: 2s ease;
     z-index: 5;
 }
 

@@ -61,6 +61,17 @@
     </li>
 </ul>
 
+<p class="pAcc">
+    <iconify-icon icon="clarity:help-info-solid"></iconify-icon>
+    <?php if($_GET['ind'] == 'kelidoine') {
+        echo'Pourquoi "Kelidoine" ? </br></br>
+        Une Chelidoine est une petite fleure jaune qui pousse abondament dans les environs du gîte, c\'est une fleur qui sent très bon .....';
+    } elseif($_GET['ind'] == 'pisserotte') {
+        echo'Pourquoi "Pisserotte" ? </br></br>
+        Le Ruisseau de la Pisserotte est un ruisseau qui rejoins le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez la visiter au bout de 10 minutes de balade.';
+    } ?>
+</p>
+
 <!-- NOTES -->
 
 
