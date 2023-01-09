@@ -12,3 +12,11 @@ header{
 header:hover{
     background: no-repeat 25% 63% / cover url("../img/Pisserotte/sunset.jpg");
 }
+
+.navoptions{
+    text-shadow: black 0px 0px 3px;
+}
+
+.navbarre:last-of-type .navoptions:last-of-type:hover{
+    background: right / 50% no-repeat url(../img/kelidoine/deco.png) rgb(255, 255, 255, 0.5)!important;
+}

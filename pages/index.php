@@ -28,6 +28,7 @@
         
 
         ?>
+        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css"/>
@@ -76,7 +77,7 @@
                         Résidence
                     </a>
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions X underline">
-                        Disponibilités & Tarifs
+                        Disponibilité & Tarifs
                     </a>
 
                 </div>
@@ -93,14 +94,14 @@
 
                     <?php if ($_GET['ind'] == 'kelidoine') {
 
-                            echo'<a href="index.php?ind=pisserotte&pg=acc" class=" '.($color).' navoptions X underline">
+                            echo'<a href="index.php?ind=pisserotte&pg=acc" class="navoptions X water" style="color:rgb(0,74,173)">
                                     Pisserotte
                                  </a>';
 
                         } elseif ($_GET['ind'] == 'pisserotte') {
 
-                            echo'<a href="index.php?ind=kelidoine&pg=acc" class=" '.($color).' navoptions X underline">
-                                    Kelidoine
+                            echo'<a href="index.php?ind=kelidoine&pg=acc" class="navoptions X flower" style="color:#ffde59;">
+                                    Kélidoine
                                  </a>';
                         }
                                          

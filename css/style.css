@@ -168,26 +168,25 @@ header:hover .navoptions{
     opacity: 0;
     position: absolute;
     z-index: 99;
-    font-family: 'Montserrat Alternates', sans-serif;
     -webkit-text-stroke: 0.1px black;
-    text-shadow: black 0px 0px 2px;
-    font-size: 1em;
+    font-size: 1.5em;
     transition: 0.2s;
     white-space: nowrap;
-    padding: 0 3px;
+    padding: 2px 15px;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 
 .navbarre:first-of-type .navoptions:nth-child(2n+1),
 .navbarre:last-of-type .navoptions:nth-child(2n+1)
  {
-    top: -30px;
+    top: -40px;
 }
 
 .navbarre:first-of-type .navoptions:nth-child(2n),
 .navbarre:last-of-type .navoptions:nth-child(2n)
  {
-    bottom: -30px;
+    bottom: -40px;
 }
 
 
@@ -202,7 +201,7 @@ header:hover .navoptions{
 }
 
 .navbarre:first-of-type .navoptions:last-of-type{
-    right: 70%;
+    right: 65%;
 }
 
 /* BARRE DROITE */
@@ -217,7 +216,10 @@ header:hover .navoptions{
 
 .navbarre:last-of-type .navoptions:last-of-type{
     left: 70%;
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 7px 7px 0 0;
 }
+
 
 /* FOOTER */
 
@@ -705,11 +707,11 @@ footer a{
   }
 
   .X:after{
-    top: -8px;
+    top: 0;
   }
 
   .Y:after{
-    bottom: -8px;
+    bottom: 0;
   }
 
   .X:hover::after, .Y:hover:after{
