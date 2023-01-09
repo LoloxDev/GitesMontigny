@@ -30,6 +30,7 @@
         ?>
         <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../media-querries/media-850max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css"/>
         <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">

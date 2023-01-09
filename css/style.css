@@ -32,7 +32,7 @@ section:not(#menu){
 
 section h2{
     width: fit-content;
-    margin-bottom: 85px;
+    margin-bottom: 25px;
     font-size: 2.5em;
     font-family: 'Annie Use Your Telescope', cursive;
 }
@@ -237,7 +237,7 @@ footer{
 }
 
 footer h2, footer p{
-    margin: 10px 0;
+    margin: 30px 0;
     position: relative;
 }
 
@@ -740,7 +740,7 @@ footer a{
 
 .picDecoTitle{
     width: 186px;
-    top: -35px;
+    top: -50px;
     left: -70px;
     height: 184px;
     z-index: -2;

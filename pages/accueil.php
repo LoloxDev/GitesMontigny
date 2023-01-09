@@ -76,10 +76,10 @@
 
 
 <div id="notesBloc">
+    
         <h2>
             Notes et Avis
         </h2>
-
 
     <ul id="notes">
 
