@@ -23,19 +23,19 @@
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
-                    <img class="imageaccueil1" src="../img/Kelidoine/chelidoine.jpg" alt="photo du gite de Kélidoine">
+                    <img class="imageaccueil1" src="../img/kelidoine/chelidoine.jpg" alt="photo du gite de Kélidoine">
                 </a>
                 <a href="index.php?ind=pont" class="imgaccueil middle">
                     <h2>
                         Lac de Pont
                     </h2>
-                    <img class="imageaccueil1" src="../img/Pont/lacDePont.jpg" alt="photo du Lac de Pont">
+                    <img class="imageaccueil1" src="../img/pont/lacDePont.jpg" alt="photo du Lac de Pont">
                 </a>
                 <a href="index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>
                         Gîte de la Pisserotte
                     </h2>
-                    <img class="imageaccueil2" src="../img/Pisserotte/pisserotte.jpg" alt="photo du gite de la Pisserotte">
+                    <img class="imageaccueil2" src="../img/pisserotte/pisserotte.jpg" alt="photo du gite de la Pisserotte">
                 </a>
             </div>
         </section>

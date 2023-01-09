@@ -37,6 +37,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <?php
+            if ($_GET['ind'] == 'kelidoine') {
+                        echo '<link rel="shortcut icon" type="image/png" href="../img/kelidoine/moon.jpg"/>';
+                    } elseif ($_GET['ind'] == 'pisserotte'){
+                        echo '<link rel="shortcut icon" type="image/png" href="../img/pisserotte/sunset.jpg"/>';
+                    }
+        ?>
         
 
         
@@ -53,12 +60,12 @@
                 
                 /* Logo + couleur */
                     if ($_GET['ind'] == 'kelidoine') {
-                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../img/Kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
+                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../img/kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
                         $color = "yellow";
                         $ind = "kelidoine";
 
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/Pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
+                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
                         $color = "blue";
                         $ind = "pisserotte";
                     } elseif (isset($_GET['ind'])){

@@ -25,26 +25,19 @@
     </li> 
     <?php
 
-        $gite = "";
-
-        if ($_GET['ind'] == 'kelidoine') {
-            $gite = "kelidoine";
-        } elseif($_GET['ind'] == 'pisserotte'){
-            $gite = "pisserotte";
-        }
-
         for ($i=1; $i < 26; $i++) { 
             echo'
             <li id="pic'.$i.'" onClick="openPic()">
 
                 <figure class="picGalerie">
-                    <img src="../img/'.$gite.'/'.$i.'.jpeg" alt="" loading="lazy">
+                    <img src="../img/'.$_GET['ind'].'/'.$i.'.jpeg" alt="" loading="lazy">
                     <figcaption>
                     </figcaption>
                 </figure>
 
             </li>';
         }
+        
     ?>
 </ul>
 

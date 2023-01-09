@@ -26,7 +26,7 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/Kelidoine/5.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+                echo'<img src="../img/kelidoine/5.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } elseif($_GET['ind'] == 'pisserotte') {
                     echo'<img src="../img/pisserotte/11.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } ?>
@@ -39,7 +39,7 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/Kelidoine/7.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+                echo'<img src="../img/kelidoine/7.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } elseif($_GET['ind'] == 'pisserotte') {
                     echo'<img src="../img/pisserotte/2.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } ?>
@@ -51,7 +51,7 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/Kelidoine/19.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+                echo'<img src="../img/kelidoine/19.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } elseif($_GET['ind'] == 'pisserotte') {
                     echo'<img src="../img/pisserotte/19.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } ?>
@@ -100,10 +100,10 @@
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
                         echo'
-                        <img src="../img/Pisserotte/avis/notes_gites_pisserotte.png" alt="9.7 / 10"/>';
+                        <img src="../img/pisserotte/avis/notes_gites_pisserotte.png" alt="9.7 / 10"/>';
                     } elseif($_GET['ind'] == 'kelidoine') {
                         echo'
-                        <img src="../img/Kelidoine/avis/gites-fr.png" alt="8.9 / 10"/>';
+                        <img src="../img/kelidoine/avis/gites-fr.png" alt="8.9 / 10"/>';
                     } ?>
                 </figcaption>
             </figure>
@@ -119,10 +119,10 @@
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
                         echo'
-                        <img src="../img/Pisserotte/avis/notes_air_pisserotte.png" alt="4.92 / 5"/>';
+                        <img src="../img/pisserotte/avis/notes_air_pisserotte.png" alt="4.92 / 5"/>';
                     } elseif($_GET['ind'] == 'kelidoine') {
                         echo'
-                        <img src="../img/Kelidoine/avis/airbnb.png" alt="4.50 / 5"/>';
+                        <img src="../img/kelidoine/avis/airbnb.png" alt="4.50 / 5"/>';
                     } ?>
                     
                 </figcaption>
@@ -142,7 +142,7 @@
                         <img src="../img/logo_agence/booking.svg" alt=""/>
                     </a>
                     <figcaption>
-                        <img src="../img/Pisserotte/avis/notes_booking_pisserotte.png" alt=""/>
+                        <img src="../img/pisserotte/avis/notes_booking_pisserotte.png" alt=""/>
                     </figcaption>
                 </figure>
 
@@ -155,7 +155,7 @@
                         <img src="../img/logo_agence/abritel.svg" alt=""/>
                     </a>
                     <figcaption>
-                        <img src="../img/Pisserotte/avis/notes_abritel_pisserotte.png" alt=""/>
+                        <img src="../img/pisserotte/avis/notes_abritel_pisserotte.png" alt=""/>
                     </figcaption>
                 </figure>
 
