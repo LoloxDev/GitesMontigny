@@ -30,7 +30,7 @@
             <li id="pic'.$i.'" onClick="openPic()">
 
                 <figure class="picGalerie">
-                    <img src="../img/'.$_GET['ind'].'/'.$i.'.jpeg" alt="" loading="lazy">
+                    <img src="../img/'.$_GET['ind'].'/'.$i.'.JPEG" alt="" loading="lazy">
                     <figcaption>
                     </figcaption>
                 </figure>
