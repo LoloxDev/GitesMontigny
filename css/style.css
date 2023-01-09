@@ -1,22 +1,40 @@
 /* INDEX */
 
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', cursive;
 }
 
 .flex{
     display: flex;
 }
 
+.firstLetter{
+    /*font-family: 'Annie Use Your Telescope';*/
+}
+
 section:not(#menu){
     width: 100%;
-    margin-top: 30px;
     overflow: hidden;
+    padding: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 section h2{
     width: fit-content;
-    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .none{
@@ -82,7 +100,7 @@ section h2{
 
 header{
     width: 100%;
-    transition: 5s;
+    transition: 2s ease;
     z-index: 5;
 }
 
@@ -91,7 +109,7 @@ header a{
 }
 
 header a:hover{
-    color:white;
+color: white;
 }
 
 nav{
@@ -150,31 +168,32 @@ header:hover .navoptions{
     opacity: 0;
     position: absolute;
     z-index: 99;
-    font-family: 'Montserrat Alternates', sans-serif;
     -webkit-text-stroke: 0.1px black;
-    text-shadow: black 0px 0px 2px;
-    font-size: 1em;
+    font-size: 1.5em;
     transition: 0.2s;
+    white-space: nowrap;
+    padding: 2px 15px;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 
 .navbarre:first-of-type .navoptions:nth-child(2n+1),
 .navbarre:last-of-type .navoptions:nth-child(2n+1)
  {
-    top: -30px;
+    top: -40px;
 }
 
 .navbarre:first-of-type .navoptions:nth-child(2n),
 .navbarre:last-of-type .navoptions:nth-child(2n)
  {
-    bottom: -30px;
+    bottom: -40px;
 }
 
 
 /* BARRE GAUCHE */
 
 .navbarre:first-of-type .navoptions:first-of-type{
-    right: 15%;
+    right: 10%;
 }
 
 .navbarre:first-of-type .navoptions:nth-of-type(2){
@@ -182,13 +201,13 @@ header:hover .navoptions{
 }
 
 .navbarre:first-of-type .navoptions:last-of-type{
-    right: 70%;
+    right: 65%;
 }
 
 /* BARRE DROITE */
 
 .navbarre:last-of-type .navoptions:first-of-type{
-    left: 15%;
+    left: 10%;
 }
 
 .navbarre:last-of-type .navoptions:nth-of-type(2){
@@ -197,7 +216,10 @@ header:hover .navoptions{
 
 .navbarre:last-of-type .navoptions:last-of-type{
     left: 70%;
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 7px 7px 0 0;
 }
+
 
 /* FOOTER */
 
@@ -215,7 +237,7 @@ footer{
 }
 
 footer h2, footer p{
-    margin: 10px 0;
+    margin: 30px 0;
     position: relative;
 }
 
@@ -285,6 +307,10 @@ footer a{
     max-width: 800px;
     margin: auto;
     
+}
+
+#carroussel li img{
+    max-height: 600px;
 }
 
 #carroussel figure{
@@ -392,37 +418,45 @@ footer a{
 
 /* NOTES */
 
+#notesBloc{
+    margin-top: 50px;
+}
+
 #notes{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0;
+    margin: 20px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #notes figure{
-    width: 100px;
+    width: 140px;
 }
 
 #notes li:first-of-type{
-    margin-top: -20px;
+    width: 100%;
+    margin: 20px 0;
 }
 
-#notes li:first-of-type figure{
+#notes #abritel{
+    margin-top: -20px;
     width: 180px;
     height: 40px;
 }
 
-#notes li:nth-of-type(2) figure{
+
+#notes #airbnb{
     width: 110px;
 }
 
-#notes li:nth-of-type(2) figcaption{
+#airbnb figcaption{
     margin-top: 10px;
     margin-left: -25px;
     width: 180px;
 }
 
-#notes li:nth-of-type(3){
+#booking{
     margin-top: 20px;
 }
 
@@ -434,6 +468,7 @@ footer a{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 .flexResi figure{
@@ -471,7 +506,6 @@ footer a{
     overflow: hidden;
     position: relative;
     width: 100%;
-    padding: 20px 0;
 }
 .slider::before, .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -485,7 +519,7 @@ footer a{
     top: 0;
 }
 .slider .slide-track {
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
     display: flex;
     width: 150%;
     justify-content: space-around;
@@ -493,4 +527,230 @@ footer a{
 .slider .slide {
     height: 100px;
     width: 250px;
+}
+
+
+/* FORMULAIRE DE CONTACT */
+
+#contact{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#contact input[type="submit"]{
+
+    width: 150px;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+/* Page activité */
+
+#actContain{
+    display: flex;
+    justify-content: space-around;
+}
+
+#actContain div h3{
+    margin-bottom: 20px;
+}
+
+/* Page galerie */
+
+.picGalerie{
+    width: 80%;
+    height: 80%;
+    margin: unset;
+}
+
+.picGalerie img{
+    border-radius: 14px;
+    border: 2px solid white;
+}
+
+#picContain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    background-color: silver;
+    justify-content: space-around;
+    border-radius: 18px;
+}
+
+#picContain > li:not(:first-child){
+    width: 200px;
+    height: 250px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#picContain > li:first-child{
+    width: 100%;
+}
+
+#picContain > li:hover{
+    transform: scale(1.03);
+}
+
+#picContain li figure{
+    cursor: pointer;
+}
+
+#titles{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#titles a{
+    transition: 0.2s;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+#titles a:hover{
+    color: white;
+}
+
+#diapoBox{
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: RGB(54, 54, 54, 0.9);
+    transition: 0.2s;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.activeDia{
+    display: flex;
+}
+
+#picContain #diapoBox figure{
+    cursor: default;
+}
+
+#picContain #diapoBox:hover{
+    transform: scale(1);
+}
+
+.arrowPic{
+    background-position: center;
+    background-size: 124%;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.arrowPic:hover{
+    transform: scale(1.05);
+}
+
+.arrowPic:nth-of-type(2){
+    transform: rotate(180deg);
+}
+
+.arrowPic:nth-of-type(2):hover{
+    transform: rotate(180deg) scale(1.05);
+}
+#closer{
+    position: absolute;
+    content: '';
+    top: 20px;
+    right: 5%;
+    margin-right: -32px;
+    width: 32px;
+    height: 32px;
+    background: #8d0000 url('../img/close.png');
+    background-size: 114%;
+    background-position: center;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+/* Soulignement */
+
+.underline:not(.navoptions) {
+    position: relative;
+  }
+  .underline:after {
+    content: '';
+    transform-origin: 50%; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.5px; 
+    z-index: 0;
+    opacity: 0.8;
+    transition: .3s;
+  }
+
+  .X:after{
+    top: 0;
+  }
+
+  .Y:after{
+    bottom: 0;
+  }
+
+  .X:hover::after, .Y:hover:after{
+    background-color: white;
+  }
+  .underline:hover:after {
+    transform: scaleX(1);
+  }
+
+.yellow:after{
+    background: #ffde59;
+}
+
+.blue:after{
+    background: rgb(0,74,173);
+}
+
+/* Images de déco */
+
+
+#containTitle{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.picDecoTitle{
+    width: 186px;
+    top: -50px;
+    left: -70px;
+    height: 184px;
+    z-index: -2;
+    position: absolute;
+}
+
+.picDeco{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    top: 0;
+    right: 0;
 }

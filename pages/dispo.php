@@ -1,23 +1,39 @@
 <h2 class="marginBottom">
-    Disponibilités & contact
+    Disponibilités et tarifs
 </h2>
 
-<div class="container">
-  <h1>Formulaire de contact</h1>
-  <form action="/action_page.php">
-    <label for="fname">Nom & prénom</label>
-    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+<p>
 
-    <label for="sujet">Sujet</label>
-    <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+  Selon la saison et la durée de votre séjour, la nuité varie entre 95 à 145€, contactez moi pour plus de précisions.
 
-    <label for="emailAddress">Email</label>
-    <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+</p>
+
+<h3>Formulaire de contact</h3>
+
+<form action="../exec/sendEmail.php" id="contact" method="post">
+
+  <label for="fname">Nom & prénom</label>
+  <input type="text" id="fname" name="name">
+
+  <label for="sujet">Objet</label>
+  <input type="text" id="sujet" name="subject">
+
+  <label for="emailAddress">Email</label>
+  <input id="emailAddress" type="email" name="email">
+
+  <label for="tel">Téléphone</label>
+  <input id="tel" type="tel" name="tel">
+
+  <label for="subject">Message</label>
+  <textarea id="subject" name="message" style="height:200px"></textarea>
+
+  <input type="submit" value="Envoyer">
+
+</form>
 
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+<p>
 
-    <input type="submit" value="Envoyer">
-  </form>
-</div>
+  Il sera bientôt possible d'obtenir les disponibilités et pouvoir réserver directement sur le site.
+
+</p>
