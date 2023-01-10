@@ -1,5 +1,12 @@
-
 #notes li {
     width: 50%;
     margin: 20px 0;
+}
+
+.flexResi{
+    gap: 75px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    animation: unset !important;
+    width: 100%;
 }

@@ -14,6 +14,8 @@ h1, h2, h3, h4{
 
 .flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .firstLetter{
@@ -30,7 +32,7 @@ section:not(#menu){
     position: relative;
 }
 
-section h2{
+section:not(#menu) h2{
     width: fit-content;
     margin-bottom: 25px;
     font-size: 2.5em;
@@ -60,7 +62,6 @@ section h2{
 }
 
 .middle h2{
-
     margin-left: -73px !important;
 }
 
@@ -79,7 +80,7 @@ section h2{
     border-top: solid black 5px;
     border-bottom: solid black 5px;
     border-radius: 15px;
-    background: rgb(0,0,0,0.15);
+    background: rgb(0,0,0,0.50);
     padding: 0 10px 10px 10px;
     object-position: 50% 50%;
 }
@@ -315,7 +316,9 @@ footer a{
 
 #carroussel figure{
     position: relative;
-    border: 2px black solid;
+    box-shadow: 0 0 20px black;
+    border-radius: 11px;
+    overflow: hidden;
 }
 
 #carroussel li:first-of-type figure{
@@ -473,7 +476,7 @@ footer a{
 
 .flexResi figure{
     text-align: center;
-    width: 100px;
+    width: 150px;
 }
 
 .flexResi figure img{
@@ -490,13 +493,13 @@ footer a{
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(50%);
    }
     50% {
-        transform: translateX(-36%);
+        transform: translateX(-50%);
    }
     100% {
-    transform: translateX(0);
+    transform: translateX(50%);
     }
 }
 .slider {
@@ -506,27 +509,14 @@ footer a{
     overflow: hidden;
     position: relative;
     width: 100%;
+    
 }
-.slider::before, .slider::after {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-}
-.slider::before {
-    left: 0;
-    top: 0;
-}
+
 .slider .slide-track {
-    animation: scroll 15s linear infinite;
     display: flex;
-    width: 150%;
+    width: 150;
     justify-content: space-around;
-}
-.slider .slide {
-    height: 100px;
-    width: 250px;
+    animation: scroll 15s linear infinite;
 }
 
 
@@ -553,23 +543,54 @@ footer a{
 #actContain{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+#actContain a{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#actContain ul{
+    list-style: inside url("../img/the-vert.png");
 }
 
 #actContain div h3{
     margin-bottom: 20px;
 }
 
+#containMontignyPic{
+    width: 75%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 25px black;
+    overflow: hidden;
+}
+
+#containMontignyPic img{
+    object-fit: contain;
+}
+
 /* Page galerie */
 
 .picGalerie{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin: unset;
 }
 
-.picGalerie img{
-    border-radius: 14px;
-    border: 2px solid white;
+#picSelected{
+    width: 60%;
+    max-height: 95%;
+    height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 50px white;
 }
 
 #picContain{
@@ -577,9 +598,10 @@ footer a{
     flex-wrap: wrap;
     gap: 15px;
     padding: 15px;
-    background-color: silver;
     justify-content: space-around;
     border-radius: 18px;
+    background-color: lightgrey;
+    box-shadow: 0 0 20px white inset;
 }
 
 #picContain > li:not(:first-child){
@@ -589,13 +611,18 @@ footer a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 20px white;
+    position: relative;
 }
+        
 
 #picContain > li:first-child{
     width: 100%;
 }
 
-#picContain > li:hover{
+#picContain > li:not(:first-of-type):hover{
     transform: scale(1.03);
 }
 
@@ -655,10 +682,12 @@ footer a{
     overflow: hidden;
     cursor: pointer;
     transition: 0.2s;
+    width: 4%;
+    box-shadow: 0 0 30px white;
 }
 
 .arrowPic:hover{
-    transform: scale(1.05);
+    transform: scale(0.90);
 }
 
 .arrowPic:nth-of-type(2){
@@ -666,14 +695,14 @@ footer a{
 }
 
 .arrowPic:nth-of-type(2):hover{
-    transform: rotate(180deg) scale(1.05);
+    transform: rotate(180deg) scale(0.90);
 }
 #closer{
     position: absolute;
     content: '';
     top: 20px;
-    right: 5%;
-    margin-right: -32px;
+    right: 0;
+    margin-right: 32px;
     width: 32px;
     height: 32px;
     background: #8d0000 url('../img/close.png');
@@ -683,8 +712,12 @@ footer a{
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
+    box-shadow: 0 0 10px white;
 }
 
+#closer:hover{
+    transform: scale(0.90);
+}
 
 
 /* Soulignement */
@@ -704,6 +737,7 @@ footer a{
     z-index: 0;
     opacity: 0.8;
     transition: .3s;
+    background-color: black;
   }
 
   .X:after{

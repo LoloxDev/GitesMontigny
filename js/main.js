@@ -98,7 +98,7 @@ function swapPic(){
 
     if (buttonClicked == "next"){
 
-        if(idPic == 25){
+        if(idPic == 24){
             idPic = 1;
         } else {
             idPic++;
@@ -107,7 +107,7 @@ function swapPic(){
     } else if (buttonClicked == "previous") {
 
         if(idPic == 1){
-            idPic = 25;
+            idPic = 24;
         } else {
             idPic--;
         }

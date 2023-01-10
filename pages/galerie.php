@@ -8,7 +8,7 @@
         <ul id="titles">
             <li>
                 <a href="index.php?ind=kelidoine&pg=gal" class="underline <?php echo($color) ?>">
-                    Kelidoine
+                    Kélidoine
                 </a>
             </li>
             <li>
@@ -25,7 +25,7 @@
     </li> 
     <?php
 
-        for ($i=1; $i < 26; $i++) { 
+        for ($i=1; $i < 25; $i++) { 
             echo'
             <li id="pic'.$i.'" onClick="openPic()">
 
@@ -47,7 +47,7 @@
             <div class="arrowPic" id="previous">
                 <img src="../img/arrow-left.png" alt"Une flèche vers la gauche" loading="lazy">
             </div>
-            <figure class="picGalerie">
+            <figure class="picGalerie" id="picSelected">
                 <img src="" alt="" loading="lazy">
                 <figcaption>
                 </figcaption>
