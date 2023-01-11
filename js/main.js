@@ -35,9 +35,11 @@ checkbox.addEventListener('change', function() {
   if (this.checked) {
     document.querySelector("body").style.overflow = "hidden";
     document.querySelector("nav a").style.pointerEvents = "none";
+    document.querySelector("#burgerContain ul").style.display = "block";
   } else {
     document.querySelector("body").style.overflow = "visible";
     document.querySelector("nav a").style.pointerEvents = "auto";
+    document.querySelector("#burgerContain ul").style.display = "none";
   }
 });
 
