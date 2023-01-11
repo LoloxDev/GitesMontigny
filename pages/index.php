@@ -178,7 +178,7 @@
 
         <footer class="flex">
 
-            <h2 class="footer-heading"><a href="#" class="logo">GitesMontigny.com</a></h2>
+            <h2 class="footer-heading"><a href="https://pisserotte-kelidoine.com" class="logo">pisserotte-kelidoine.com</a></h2>
             <ul class="menu flex del">
                 <li href="#">Accueil</li>
                 <li href="#">Mentions légales</li>
@@ -206,7 +206,7 @@
                 </li>
             </ul>
             <p class="del">
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com" target="_blank">Loris Labarre</a>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com/Portfolio" target="_blank">Loris Labarre</a>
             </p>
 
         </footer>
