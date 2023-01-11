@@ -26,6 +26,21 @@
 
 //})
 
+// On vérifie si le menu burger est activé pour appliquer quelques paramètres
+
+
+var checkbox = document.querySelector("#burgerInput");
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    document.querySelector("body").style.overflow = "hidden";
+    document.querySelector("nav a").style.pointerEvents = "none";
+  } else {
+    document.querySelector("body").style.overflow = "visible";
+    document.querySelector("nav a").style.pointerEvents = "auto";
+  }
+});
+
 
 // Fonction permettant de récupérer un GET de l'url
 
@@ -119,8 +134,5 @@ function swapPic(){
 document.querySelectorAll('.arrowPic').forEach(function(link){
     link.addEventListener('click', swapPic)
 })
-
-
-
 
 

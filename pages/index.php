@@ -119,6 +119,39 @@
 
             </nav>
         </header>
+
+        <label id="burgerContain">
+            <input type="checkbox" id="burgerInput">
+            <span class="menu"> <span class="hamburger"></span> </span>
+            <ul>
+                <li> <img src="../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=acc" class="underline <?php echo($color) ?>"><span>Accueil</span></a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline <?php echo($color) ?>">Disponibilité et tarifs</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="underline <?php echo($color) ?>">Residence</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="underline <?php echo($color) ?>">Galerie</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="underline <?php echo($color) ?>">Activités & tourisme</a> </li>
+                <li> <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline <?php echo($color) ?>">Lac de Pont</a> </li>
+                <?php if ($_GET['ind'] == 'kelidoine') {
+
+                echo'<li>
+                        <a href="index.php?ind=pisserotte&pg=acc" class="water" style="color:rgb(0,74,173)">
+                            Pisserotte
+                        </a>
+                    </li>';
+
+                } elseif ($_GET['ind'] == 'pisserotte') {
+                
+                echo'<li>
+                        <a href="index.php?ind=kelidoine&pg=acc" class="flower" style="color:#ffde59;">
+                        Kélidoine
+                        </a>
+                     </li>';
+                }
+
+            
+            ?>
+            </ul>
+        </label>
         
         <section class="padding">
                         <?php

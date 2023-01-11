@@ -109,7 +109,7 @@ header a{
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover, #burgerContain a:hover{
 color: white;
 }
 
@@ -119,6 +119,8 @@ nav{
     position: relative;
     z-index: 1;
     cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 #logo img{
@@ -748,8 +750,8 @@ footer a{
     bottom: 0;
   }
 
-  .X:hover::after, .Y:hover:after{
-    background-color: white;
+  .X:hover::after, .Y:hover:after, #burgerContain a:hover:after{
+    background: white;
   }
   .underline:hover:after {
     transform: scaleX(1);
@@ -787,4 +789,10 @@ footer a{
     height: 320px;
     top: 0;
     right: 0;
+}
+
+/* Menu burger Off */
+
+#burgerContain{
+    display: none;
 }

@@ -17,6 +17,14 @@ header:hover{
     text-shadow: white 0px 0px 3px;
 }
 
-.navbarre:last-of-type .navoptions:last-of-type:hover{
+.navbarre:last-of-type .navoptions:last-of-type:hover, #burgerContain li:last-of-type a:hover{
     background: right / 70% no-repeat url(../img/pisserotte/deco.png) rgb(255, 255, 255, 0.5)!important;
+}
+
+/*#burgerContain ul{
+    list-style: url("../img/kelidoine/deco-list.png");
+}
+*/
+label input:checked + .menu {
+    box-shadow: 0 0 0 100vw #2474af, 0 0 0 100vh #2474af;
 }

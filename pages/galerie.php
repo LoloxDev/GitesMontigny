@@ -11,11 +11,11 @@
                     Kélidoine
                 </a>
             </li>
-            <li>
+            <!--<li>
                 <a href="" class="underline <?php echo($color) ?>">
                     Lac de Pont
                 </a>
-            </li>
+            </li>!-->
             <li>
                 <a href="index.php?ind=pisserotte&pg=gal" class="underline <?php echo($color) ?>">
                     Pisserotte
