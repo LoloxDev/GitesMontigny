@@ -10,19 +10,19 @@
 
         <ul>
             <li>
-                <a href ="https://www.ville-semur-en-auxois.fr/" class="underline">Semur en Auxois</a>, cité médiéval et fortifié
+                <a href ="https://www.ville-semur-en-auxois.fr/" class="underline">Semur en Auxois</a>, cité médiévale et fortifiée.
             </li>
             <li>
-                <a href ="https://saulieu.fr/" class="underline">Saulieu</a>, savoie, restaurant loiseau
+                <a href ="https://saulieu.fr/" class="underline">Saulieu</a>, Morvan, restaurant Loiseau.
             </li>
             <li>
-                <a href ="https://www.tourisme-yonne.com/lyonne-en-bourgogne/les-tresors-de-lyonne/avallon-porte-du-morvan/" class="underline">Avallon</a>, cité médiéval et fortifié
+                <a href ="https://www.tourisme-yonne.com/lyonne-en-bourgogne/les-tresors-de-lyonne/avallon-porte-du-morvan/" class="underline">Avallon</a>, cité médiévale et fortifiée.
             </li>
             <li>
-                <a href ="https://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline">Le lac de pont</a>, randonnée 
+                <a href ="https://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline">Le lac de pont</a>, randonnée, tour du lac 13 km.
             </li>
             <li>
-                <a href="https://flavigny-sur-ozerain.fr/" class="underline">Flavigny sur ozerain</a>, village médiéval, fabrication artisanale des célebres bonbons à l'anis..
+                <a href="https://flavigny-sur-ozerain.fr/" class="underline">Flavigny sur ozerain</a>, village médiéval, fabrication artisanale des célebres bonbons à l'anis.
             </li>
             <li>
                 <a href="https://www.chateau-bussy-rabutin.fr/" class="underline">Chateau de Bussy Rabutin</a>, château de style Renaissance initialement bâti aux XIIᵉ siècle et XIVᵉ siècle.
@@ -52,10 +52,16 @@
                 Vélo
             </li>
             <li>
-                L'été : baignade, pédale, kanoé kayac ...
+                L'été : baignade, pédalo, kanoé kayac ...
             </li>
             <li>
                 AccroBranche
+            </li>
+            <li>
+                Golf
+            </li>
+            <li>
+                Equitation
             </li>
         </ul>
     </div>

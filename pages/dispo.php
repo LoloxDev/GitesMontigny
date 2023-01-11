@@ -1,5 +1,5 @@
 <h2 class="marginBottom">
-    Disponibilités et tarifs
+    Disponibilité et tarifs
 </h2>
 
 <p>

@@ -14,9 +14,9 @@
 
 <p class="pAcc">
     <?php if($_GET['ind'] == 'kelidoine') {
-        echo'<span class="firstLetter">L</span>e gite Kelidoine, ce logement paisible offre un séjour détente pour toute la famille. Situé en pleine nature, aux abords d\'un lac et d\'un sentier de randonnée en foret. Facile d’accès, sortie d’autoroute et commerces à moins de 10 minute';
+        echo'<span class="firstLetter">L</span>e gîte de la Kélidoine, ce logement paisible offre un séjour détente pour toute la famille. Situé en pleine nature, aux abords d\'un lac et d\'un sentier de randonnée en forêt. Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes';
     } elseif($_GET['ind'] == 'pisserotte') {
-        echo'<span class="firstLetter">L</span>e gide de la Pisserotte, gîte en pleine nature, situé à la queue du Lac de Pont (Côte d\'Or). Au départ d\'un sentier de randonnée en forêt et en longeant le lac. Tour du lac ( 13 km ) Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes';
+        echo'<span class="firstLetter">L</span>e gîte de la Pisserotte, gîte en pleine nature, situé à la queue du Lac de Pont (Côte d\'Or). Au départ d\'un sentier de randonnée entre forêt et lac. Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes';
     } ?>
 </p>
 
@@ -64,11 +64,11 @@
 <p class="pAcc">
     <iconify-icon icon="clarity:help-info-solid"></iconify-icon>
     <?php if($_GET['ind'] == 'kelidoine') {
-        echo'Pourquoi "Kelidoine" ? </br></br>
-        Une Chelidoine est une petite fleure jaune qui pousse abondament dans les environs du gîte, c\'est une fleur qui sent très bon .....';
+        echo'Pourquoi "Kélidoine" ? </br></br>
+        La Chélidoine, est une plante de la famille des Papavéracées jaune qui pousse abondament dans les environs du gîte.';
     } elseif($_GET['ind'] == 'pisserotte') {
         echo'Pourquoi "Pisserotte" ? </br></br>
-        Le Ruisseau de la Pisserotte est un ruisseau qui rejoins le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez la visiter au bout de 10 minutes de balade.';
+        Le ruisseau de la Pisserotte rejoint le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez la visiter au bout de 10 minutes de balade.';
     } ?>
 </p>
 

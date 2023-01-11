@@ -182,13 +182,10 @@
             <ul class="menu flex del">
                 <li href="#">Accueil</li>
                 <li href="#">Mentions légales</li>
-                <li href="#">À propos</li>
-                <li href="#">Quelque chose</li>
-                <li href="#">Quelque chose</li>
                 <li href="#">Contact</li>
             </ul>
 
-            <ul class="reseaux del">
+            <!--<ul class="reseaux del">
                 <li>
                     <a href="#" title="Facebook">
                         <img src="../img/facebook.png" alt="Logo Facebook"/>
@@ -203,7 +200,7 @@
                     <a href="#" title="Twitter">
                         <img src="../img/twitter.png" alt="Logo Twitter"/>
                     </a>
-                </li>
+                </li>!-->
             </ul>
             <p class="del">
                 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com/Portfolio" target="_blank">Loris Labarre</a>
