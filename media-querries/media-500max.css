@@ -5,3 +5,21 @@
 #notes li {
     width: 100%;
 }
+
+.arrowPic{
+    width: 10%;
+}
+
+@media (orientation: portrait){
+
+    #picSelected::after{
+        content: 'Tournez votre téléphone pour plus de confort visuel';
+        color: white;
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        text-align: center;
+    }
+
+}
+

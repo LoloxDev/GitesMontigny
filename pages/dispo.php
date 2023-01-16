@@ -1,4 +1,4 @@
-<h2 class="marginBottom">
+<h2 class="marginBottom reveal">
     Disponibilité et tarifs
 </h2>
 

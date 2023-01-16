@@ -1,4 +1,4 @@
-<h2>
+<h2 class="reveal">
     Residence
 </h2>
 
@@ -113,7 +113,7 @@
 
 
 
-<h2> La cuisine </h2>
+<h2 class="reveal">La cuisine</h2>
 
 <ul class="flexResi">
     <li>
@@ -182,7 +182,7 @@
     </li>
 </ul>
 
-<h2> Exterieur </h2>
+<h2 class="reveal">Exterieur</h2>
 
 <ul class="flexResi">
     <li>

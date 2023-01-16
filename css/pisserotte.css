@@ -5,8 +5,14 @@
 /* BACKGROUNDS */
 
 header{
-    background: no-repeat 25% 40% / cover url("../img/pisserotte/sunset.jpg");
+    background: no-repeat 50% 40% / cover url("../img/pisserotte/sunset.jpg");
     filter: drop-shadow(0 16px 20px #fed482);
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        background: no-repeat 50% 75% / cover url("../img/pisserotte/sunset.jpg");
+    }
 }
 
 header:hover{

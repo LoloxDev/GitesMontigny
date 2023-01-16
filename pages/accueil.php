@@ -4,7 +4,7 @@
                     <h2>
                         Présentation du gîte
                     </h2>
-                    <div class="picDecoTitle">
+                    <div class="picDecoTitle reveal">
                         <img src="../img/'.($_GET['ind']).'/deco.png" alt="">
                     </div>
                 </div>
@@ -61,7 +61,7 @@
     </li>
 </ul>
 
-<p class="pAcc">
+<p class="pAcc reveal">
     <iconify-icon icon="clarity:help-info-solid"></iconify-icon>
     <?php if($_GET['ind'] == 'kelidoine') {
         echo'Pourquoi "Kélidoine" ? </br></br>
@@ -77,13 +77,13 @@
 
 <div id="notesBloc">
     
-        <h2>
+        <h2 class="reveal">
             Notes et Avis
         </h2>
 
     <ul id="notes">
 
-        <li>
+        <li class="reveal">
 
             <figure id="tourisme">
                     <img src="../img/logo_agence/3-etoiles.jpg" alt=""/>
@@ -91,7 +91,7 @@
 
         </li>
 
-        <li>
+        <li class="reveal">
 
             <figure id="gites-fr">
                 <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" alt="Le logo de Gites.fr">
@@ -110,7 +110,7 @@
 
         </li>
 
-        <li>
+        <li class="reveal">
 
             <figure id="airbnb">
                 <a href="https://www.airbnb.fr/rooms/21588355?source_impression_id=p3_1657617711_M%2FVxCrrccF6ugbq%2B" alt="Le logo AirBnb">
@@ -135,7 +135,7 @@
         <?php if($_GET['ind'] == 'pisserotte') {
         echo'
         
-            <li>
+            <li class="reveal">
 
                 <figure id="booking">
                     <a href="https://www.booking.com/hotel/fr/1-rue-du-champois.fr.html" alt="Le logo de Booking">
@@ -148,7 +148,7 @@
 
             </li>
 
-            <li>
+            <li class="reveal">
 
                 <figure id="abritel">
                     <a href="https://www.abritel.fr/location-vacances/p1630920" alt="Le logo d\'Abritel\'">

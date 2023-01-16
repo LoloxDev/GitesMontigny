@@ -160,9 +160,9 @@ header:hover .navbarre{
     width: calc(50% - 125px);
 }
 
-header:hover .navoptions{
+/*header:hover .navoptions{
     opacity: 1;
-}
+}*/
 
 .navoptions {
     opacity: 0;
@@ -193,29 +193,31 @@ header:hover .navoptions{
 /* BARRE GAUCHE */
 
 .navbarre:first-of-type .navoptions:first-of-type{
-    right: 10%;
+    right: 0;
 }
 
 .navbarre:first-of-type .navoptions:nth-of-type(2){
-    right: 40%;
+    right: 45%;
+    transform: translate(50%);
 }
 
 .navbarre:first-of-type .navoptions:last-of-type{
-    right: 65%;
+    left: 20px;
 }
 
 /* BARRE DROITE */
 
 .navbarre:last-of-type .navoptions:first-of-type{
-    left: 10%;
+    left: 0;
 }
 
 .navbarre:last-of-type .navoptions:nth-of-type(2){
-    left: 40%;
+    left: 55%;
+    transform: translate(-50%);
 }
 
 .navbarre:last-of-type .navoptions:last-of-type{
-    left: 70%;
+    right: 20px;
     background: rgb(255, 255, 255, 0.5);
     border-radius: 7px 7px 0 0;
 }
@@ -263,6 +265,10 @@ footer h2::after{
 
 footer a{
     color: white;
+}
+
+footer .underline:after{
+    background-color: white;
 }
 
 .reseaux{
@@ -792,4 +798,17 @@ footer a{
 
 #burgerContain{
     display: none;
+}
+
+/* Apparition au scroll */
+
+.reveal{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
 }

@@ -178,11 +178,23 @@
 
         <footer class="flex">
 
-            <h2 class="footer-heading"><a href="https://pisserotte-kelidoine.com" class="logo">pisserotte-kelidoine.com</a></h2>
+            <h2 class="footer-heading logo">pisserotte-kelidoine.com</h2>
             <ul class="menu flex del">
-                <li href="#">Accueil</li>
-                <li href="#">Mentions légales</li>
-                <li href="#">Contact</li>
+                <li>
+                    <a href="../index.php" class="underline">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="underline">
+                        Mentions légales
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="underline">
+                        Contact
+                    </a> 
+                </li>
             </ul>
 
             <!--<ul class="reseaux del">

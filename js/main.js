@@ -1,30 +1,59 @@
-//const slidingHeader = document.querySelector('header img');
-//const slidingFooter = document.querySelector('footer');
-//const delFoot = document.querySelector('.del');
-//
-//window.addEventListener('scroll', () => {
-//    const{scrollTop, clientHeight} = document.documentElement;
-//
-//    console.log(scrollTop, clientHeight);
-//    
-//
-//    if (scrollTop >= 50){
-//        slidingHeader.style.width = "0px";
-//    } else if (scrollTop <= 50) {
-//        slidingHeader.style.width = "250px";
-//    }
-//
-    //var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
-    //console.log(scrollBottom);
+/* Apparition des options au hover du header */
 
-    /*if (scrollBottom >= 50){
-        slidingFooter.classList.add('activeF')
-        delFoot.classList.add('none')
-    } else if (scrollBottom <= 50) {
-        slidingFooter.classList.remove('activeF')
-    }*/
+document.querySelector('header').addEventListener("mouseenter", function( event ) {
+    event.target.querySelectorAll(".navbarre a").forEach(element => {
+        setTimeout(() => {
+            element.style.opacity = "1";
+            }, 150)         
+    });
+})
 
-//})
+document.querySelector('header').addEventListener("mouseleave", function( event ) {
+    event.target.querySelectorAll(".navbarre a").forEach(element => {
+        element.style.opacity = "0";
+    });
+})
+
+
+
+//function activeOpacity(x) {
+//    x.querySelectorAll(".navbarre a").forEach(element => {
+//        setTimeout(() => {
+//            element.style.opacity = "1";
+//          }, 150)
+//    })
+//}
+//
+//function inviOpacity(x) {
+//    x.querySelectorAll(".navbarre a").forEach(element => {
+//        element.style.opacity = "0";
+//    })
+//}
+
+/* Apparition fluide au scroll */
+
+const ratio = .1;
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: ratio
+  }
+
+  const handleIntersect = function (entries, observer) {
+    entries.forEach(function (entry){
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add('reveal-visible');
+            observer.unobserve(entry.target)
+        }
+    })
+  }
+  
+  let observer = new IntersectionObserver(handleIntersect, options);
+  document.querySelectorAll('.reveal').forEach(function (r) {
+    observer.observe(r)
+  });
+
+
 
 // On vérifie si le menu burger est activé pour appliquer quelques paramètres
 
@@ -35,7 +64,10 @@ checkbox.addEventListener('change', function() {
   if (this.checked) {
     document.querySelector("body").style.overflow = "hidden";
     document.querySelector("nav a").style.pointerEvents = "none";
-    document.querySelector("#burgerContain ul").style.display = "block";
+    setTimeout(() => {
+        document.querySelector("#burgerContain ul").style.display = "block";;
+      }, 250)
+    
   } else {
     document.querySelector("body").style.overflow = "visible";
     document.querySelector("nav a").style.pointerEvents = "auto";
@@ -104,8 +136,6 @@ document.querySelector('#closer').addEventListener('click', event => {
   });
 
 
-
-
 // Fonction permettant de changer la photo ( suivant ou précédent )
 
 function swapPic(){
@@ -136,5 +166,4 @@ function swapPic(){
 document.querySelectorAll('.arrowPic').forEach(function(link){
     link.addEventListener('click', swapPic)
 })
-
 

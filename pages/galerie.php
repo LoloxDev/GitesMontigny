@@ -1,5 +1,5 @@
 
-<h2>
+<h2 class="reveal">
     Galerie
 </h2>
 

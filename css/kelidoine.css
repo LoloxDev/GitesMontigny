@@ -5,7 +5,7 @@
 /* BACKGROUNDS */
 
 header{
-        background: no-repeat 25% 0% / cover url("../img/kelidoine/moon.jpg");
+        background: no-repeat 50% 0% / cover url("../img/kelidoine/moon.jpg");
         filter: drop-shadow(0 16px 20px #1a6eab);
 }
 
