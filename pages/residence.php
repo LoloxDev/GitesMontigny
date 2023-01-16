@@ -40,7 +40,7 @@
             <figure>
                 <span class="iconify" data-icon="dashicons:pets" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Animeaux acceptés
+                    Animaux acceptés
                 </figcaption>
             </figure>
         </li>

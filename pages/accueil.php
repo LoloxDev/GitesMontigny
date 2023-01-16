@@ -68,7 +68,7 @@
         La Chélidoine, est une plante de la famille des Papavéracées jaune qui pousse abondament dans les environs du gîte.';
     } elseif($_GET['ind'] == 'pisserotte') {
         echo'Pourquoi "Pisserotte" ? </br></br>
-        Le ruisseau de la Pisserotte rejoint le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez la visiter au bout de 10 minutes de balade.';
+        Le ruisseau de la Pisserotte rejoint le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez le visiter au bout de 10 minutes de balade.';
     } ?>
 </p>
 
