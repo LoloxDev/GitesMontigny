@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="media-queries/media-1000max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 650px)" href="media-queries/media-650max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 500px)" href="media-queries/media-500max.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="media-querries/media-1000max.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="media-querries/media-650max.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="media-querries/media-500max.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playball&display=swap" rel="stylesheet">

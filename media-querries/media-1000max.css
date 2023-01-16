@@ -134,3 +134,27 @@ label .hamburger {
   #burgerContain li:first-of-type{
     list-style: none;
   }
+
+
+
+/* ACCUEIL */
+
+.imgaccueil{
+  height: 33.20%;
+  transition: 0.3s;
+  width: 100%;
+  position: relative;
+}
+
+#menu .flex{
+  flex-direction: column;
+  height: 100vh;
+}
+
+#menu .flex a:hover{
+  width: 100%;
+}
+
+.pages h2{
+  font-size: 0.8em;
+}
