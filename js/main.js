@@ -1,3 +1,19 @@
+window.addEventListener('scroll', () => {
+    const{scrollTop} = document.documentElement;
+
+    console.log(scrollTop);
+
+    if (scrollTop >= 100) {
+
+        document.getElementById('arrowUpContain').style.opacity = "1";
+        
+    } else {
+
+        document.getElementById('arrowUpContain').style.opacity = "0";
+
+    }
+})
+
 /* Apparition des options au hover du header */
 
 document.querySelector('header').addEventListener("mouseenter", function( event ) {
