@@ -176,9 +176,9 @@
 
         </section>
 
-        <a href="#" id="arrowUpContain">
+        <div id="arrowUpContain">
             <img src="../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
-        </a>
+        </div>
 
         <footer class="flex">
 

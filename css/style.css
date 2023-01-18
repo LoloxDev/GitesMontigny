@@ -833,6 +833,7 @@ footer .underline:after{
     justify-content: center;
     opacity: 0;
     transition: .5s;
+    cursor: pointer;
 }
 
 #arrowUpContain img{

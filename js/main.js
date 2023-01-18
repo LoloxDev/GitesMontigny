@@ -15,6 +15,16 @@ window.addEventListener('scroll', () => {
     }
 })
 
+document.getElementById('arrowUpContain').addEventListener("click", function scrollLent()
+{
+    var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+    if(scrollTop > 0)
+    {
+        scrollBy(0, -5);
+        setTimeout(scrollLent, 0.1);
+    }
+})
+
 /* Apparition des options au hover du header */
 
 document.querySelector('header').addEventListener("mouseenter", function( event ) {
