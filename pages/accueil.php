@@ -28,7 +28,7 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/kelidoine/5.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
+                echo'<img src="../img/kelidoine/24.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } elseif($_GET['ind'] == 'pisserotte') {
                     echo'<img src="../img/pisserotte/11.JPEG" alt="Une photo du paysage de Montigny" class="carrous"/>';
             } ?>
