@@ -96,7 +96,7 @@
                         Activités & Tourisme
                     </a>
 
-                    <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="<?php echo($color) ?> navoptions Y underline">
+                    <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="<?php echo($color) ?> navoptions Y underline" target="blank">
                         Lac de Pont
                     </a>
 
@@ -176,6 +176,10 @@
 
         </section>
 
+        <a href="#" id="arrowUpContain">
+            <img src="../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
+        </a>
+
         <footer class="flex">
 
             <h2 class="footer-heading logo">pisserotte-kelidoine.com</h2>
@@ -191,7 +195,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="underline">
+                    <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline">
                         Contact
                     </a> 
                 </li>

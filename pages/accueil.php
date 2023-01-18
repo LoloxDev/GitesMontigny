@@ -14,9 +14,11 @@
 
 <p class="pAcc">
     <?php if($_GET['ind'] == 'kelidoine') {
-        echo'<span class="firstLetter">L</span>e gîte de la Kélidoine, ce logement paisible offre un séjour détente pour toute la famille. Situé en pleine nature, aux abords d\'un lac et d\'un sentier de randonnée en forêt. Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes';
+        echo'<span class="firstLetter">L</span>e gîte de la Kélidoine, offre un séjour détente pour toute la famille ou pour se retrouver entre amis. Situé en pleine nature, vous pourrez vous ressourcer tout en profitant des aménagements du lac de Pont et de ses animations. <br> La région est très touristique et propose de nombreux sites à découvrir.
+        Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes.';
     } elseif($_GET['ind'] == 'pisserotte') {
-        echo'<span class="firstLetter">L</span>e gîte de la Pisserotte, gîte en pleine nature, situé à la queue du Lac de Pont (Côte d\'Or). Au départ d\'un sentier de randonnée entre forêt et lac. Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes';
+        echo'<span class="firstLetter">L</span>e gîte de la Pisserotte, situé en pleine nature dans un environnement calme et paisible vous permettra  de vous ressourcer tout en profitant des aménagements du lac de Pont et de ses animations. <br> La région est très touristique et propose de nombreux sites à découvrir.
+        Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes.';
     } ?>
 </p>
 
@@ -65,10 +67,10 @@
     <iconify-icon icon="clarity:help-info-solid"></iconify-icon>
     <?php if($_GET['ind'] == 'kelidoine') {
         echo'Pourquoi "Kélidoine" ? </br></br>
-        La Chélidoine, est une plante de la famille des Papavéracées jaune qui pousse abondament dans les environs du gîte.';
+        La Chélidoine, est une plante sauvage et médicinale. On la reconnait à son feuillage vert tendre, sa sève et ses fleurs jaune vif. Elle pousse abondamment aux abords du gîte.';
     } elseif($_GET['ind'] == 'pisserotte') {
         echo'Pourquoi "Pisserotte" ? </br></br>
-        Le ruisseau de la Pisserotte rejoint le lac de pont depuis la promenade en randonnée qui se trouve juste derrière le gite. Vous pourrez allez le visiter au bout de 10 minutes de balade.';
+        La Pisserotte est un ruisseau tout proche qui se déverse dans le lac. Vous la rencontrerez en empruntant le chemin de randonnée.';
     } ?>
 </p>
 

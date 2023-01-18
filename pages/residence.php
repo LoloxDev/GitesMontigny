@@ -1,9 +1,10 @@
 <h2 class="reveal">
-    Residence
+    Résidence
 </h2>
 
 <div class="slider">
     <ul class="flexResi slide-track">
+
         <li>
             <figure>
                 <img src="../img/maison.svg" alt="Une maison" height="32"/>
@@ -62,14 +63,6 @@
         </li>
         <li>
             <figure>
-                <span class="iconify" data-icon="iconoir:dishwasher" style="color: #444; font-size: 32px;"></span>
-                <figcaption>
-                    Lave-Vaisselle
-                </figcaption>
-            </figure>
-        </li>
-        <li>
-            <figure>
                 <span class="iconify" data-icon="bi:tv" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
                     Télévision
@@ -108,6 +101,14 @@
                 </figcaption>
             </figure>
         </li>
+        <li>
+            <figure>
+                <img  src="../img/non-access.png" alt="non accesible aux personnes à mobilité réduite" height="70">
+                <figcaption>
+                    Non accessible aux personnes à mobilité réduite
+                </figcaption>
+            </figure>
+        </li>
     </ul> 
 </div>
 
@@ -120,7 +121,15 @@
         <figure>
             <span class="iconify" data-icon="cil:fridge" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Réfrigirateur + congélateur
+                Réfrigérateur + congélateur
+            </figcaption>
+        </figure>
+    </li>
+    <li>
+        <figure>
+            <span class="iconify" data-icon="iconoir:dishwasher" style="color: #444; font-size: 32px;"></span>
+            <figcaption>
+                Lave-Vaisselle
             </figcaption>
         </figure>
     </li>
@@ -160,7 +169,7 @@
         <figure>
         <span class="iconify" data-icon="tabler:microwave" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Micro-onde
+                Micro-ondes
             </figcaption>
         </figure>
     </li>
@@ -182,17 +191,9 @@
     </li>
 </ul>
 
-<h2 class="reveal">Exterieur</h2>
+<h2 class="reveal">Extérieur</h2>
 
 <ul class="flexResi">
-    <li>
-        <figure>
-        <span class="iconify" data-icon="material-symbols:cooking-outline" style="color: #444; font-size: 32px;"></span>
-            <figcaption>
-                Plaques de cuisson
-            </figcaption>
-        </figure>
-    </li>
     <li>
         <figure>
             <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
@@ -221,7 +222,7 @@
         <figure>
             <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Terrasse privé
+                Terrasse & jardin
             </figcaption>
         </figure>
     </li>

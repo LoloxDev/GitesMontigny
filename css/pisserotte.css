@@ -38,3 +38,7 @@ header:hover{
 #burgerContain a{
     text-shadow: black 0px 0px 3px;
 }
+
+#arrowUpContain{
+    background-color: #fed482;
+}

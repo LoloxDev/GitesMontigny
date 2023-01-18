@@ -327,15 +327,15 @@ footer .underline:after{
 }
 
 #carroussel li:first-of-type figure{
-    animation: animation-carte-1 19.5s 0s infinite;
+    animation: animation-carte-1 14s 0s infinite;
 }
 
 #carroussel li:nth-of-type(2) figure{
-    animation: animation-carte-2 19.5s 0s infinite;
+    animation: animation-carte-2 14s 0s infinite;
 }
 
 #carroussel li:nth-of-type(3) figure{
-    animation: animation-carte-3 19.5s 0s infinite;
+    animation: animation-carte-3 14s 0s infinite;
 }
 
 @keyframes animation-carte-1 {
@@ -479,9 +479,15 @@ footer .underline:after{
     padding: 20px 0;
 }
 
+.flexResi:not(.slider .flexResi){
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
 .flexResi figure{
     text-align: center;
-    width: 150px;
+    width: 180px;
 }
 
 .flexResi figure img{
@@ -490,9 +496,6 @@ footer .underline:after{
     width: unset;
 }
 
-.flexResi figcaption{
-
-}
 
 /* test caroussel */ 
 
@@ -811,4 +814,46 @@ footer .underline:after{
     opacity: 1;
     transform: translateY(0);
     transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+/* La flèche pour remonter sur smartphones */
+
+#arrowUpContain{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fed482;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99999999;
+    box-shadow: inset 0 0 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrowUpContain img{
+    width: 75%;
+    height: 75%;
+    animation: arrowUp cubic-bezier(.5, 0, 0, 1) infinite 2s;
+}
+
+
+@keyframes arrowUp {
+    0% {
+        transform: translateY(5%);
+    }
+
+    25% {
+        transform: translateY(-15%);
+    }
+
+    75% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(5%);
+    }
 }
