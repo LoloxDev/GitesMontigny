@@ -32,7 +32,7 @@ header:hover{
 }*/
 
 #burgerContain input:checked + .menu {
-    box-shadow: 0 0 0 100vw #FDA94D, 0 0 0 100vh #FDA94D;
+    box-shadow: 0 0 0 120vw #FDA94D, 0 0 0 120vh #FDA94D;
 }
 
 #burgerContain a{
