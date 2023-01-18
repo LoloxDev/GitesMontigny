@@ -139,6 +139,7 @@ function openPic(){
         diapoBox.style.display = "flex";
         diapoBox.classList.add("activeDia");
         body.style.overflow = "hidden";
+        document.getElementById("arrowUpContain").style.display = "none";
 
     }
 
@@ -158,6 +159,7 @@ document.querySelector('#closer').addEventListener('click', event => {
         diapoBox.style.display = "none";
         diapoBox.classList.remove("activeDia");
         body.style.overflow = "unset";
+        document.getElementById("arrowUpContain").style.display = "flex";
     }
     
   });

@@ -4,10 +4,10 @@
 
 <p>
 
-  Selon la saison et la durée de votre séjour, la nuité varie entre 95 à 145€, contactez moi pour plus de précisions ou visitez Gites.fr pour 
+  Selon la saison et la durée de votre séjour, la nuitée varie entre 95 à 145€, contactez moi pour plus de précisions ou visitez Gites.fr pour 
   <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" class="underline" style="font-weight:bold; font-style:italic;" target="blank">La Pisserotte</a>
    ou 
-   <a href="https://www.gites.fr/gites_gite-de-la-kelidoine_montigny-sur-armancon_76085.htm" class="underline" style="font-weight:bold; font-style:italic;" target="blank">La Kélidoine</a>.
+  <a href="https://www.gites.fr/gites_gite-de-la-kelidoine_montigny-sur-armancon_76085.htm" class="underline" style="font-weight:bold; font-style:italic;" target="blank">La Kélidoine</a>.
 
 </p>
 
