@@ -92,6 +92,7 @@ function $_GET(param) {
 
 let gite = $_GET('ind');
 let page = $_GET('pg');
+let msg = $_GET('msg');
 let picBox = document.querySelector('#diapoBox .picGalerie img')
 
     
@@ -173,4 +174,14 @@ function swapPic(){
 document.querySelectorAll('.arrowPic').forEach(function(link){
     link.addEventListener('click', swapPic)
 })
+
+/* Fonction permettant de confirmer bonne réception du message de contact */
+
+console.log(msg);
+
+if (msg) {
+
+    alert('Votre message à bien été envoyé et nous vous en remercions.');
+    
+}
 

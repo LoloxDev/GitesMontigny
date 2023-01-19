@@ -1,6 +1,6 @@
 ﻿<?php
 
-// Replace this with your own email address
+// Adresse email du destinataire
 $to = 'contact@pisserotte-kelidoine.com';
 
 function url(){
@@ -22,7 +22,7 @@ if($_POST) {
    
 	if ($subject == '') { $subject = "Formulaire de contact"; }
 
-   // Set Message
+   // Informations de l'expediteur
    $message = "Mail provenant de: " . $name . "<br />";
 	$message .= "Adresse email: " . $email . "<br />";
    $message .= "Telephone: " . $tel . "<br />";
@@ -42,8 +42,15 @@ if($_POST) {
    ini_set("sendmail_from", $to); // for windows server
    $mail = mail($to, $subject, $message, $headers);
 
-	if ($mail) { echo "OK"; }
-   else { echo "Quelque chose ne marche pas. S'il vous plait reesayez ou contactez la maintenance."; }
+	if ($mail) {   
+      
+      
+
+      header('Location: ../pages/index.php?ind='.($_GET['ind']).'&pg=dis&msg=true');
+      exit();
+      
+
+   } else { echo "Quelque chose ne marche pas. S'il vous plait reesayez ou contactez la maintenance."; }
 
 }
 
