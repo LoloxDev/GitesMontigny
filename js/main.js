@@ -2,8 +2,6 @@
 window.addEventListener('scroll', () => {
     const{scrollTop} = document.documentElement;
 
-    console.log(scrollTop);
-
     if (scrollTop >= 100) {
 
         document.getElementById('arrowUpContain').style.opacity = "1";
@@ -121,6 +119,7 @@ function $_GET(param) {
 }
 
 let gite = $_GET('ind');
+let page = $_GET('pg');
 let picBox = document.querySelector('#diapoBox .picGalerie img')
 
     
@@ -148,8 +147,13 @@ function openPic(){
 }
 
 // Fonction permettant de fermer le diaporama
+    
 
-document.querySelector('#closer').addEventListener('click', event => {
+let closer = document.querySelector('#closer');
+
+if(closer){
+    
+    closer.addEventListener('click', event => {
 
     let diapoBox = document.getElementById('diapoBox');
     let body = document.querySelector('body');
@@ -163,6 +167,8 @@ document.querySelector('#closer').addEventListener('click', event => {
     }
     
   });
+
+}
 
 
 // Fonction permettant de changer la photo ( suivant ou précédent )
