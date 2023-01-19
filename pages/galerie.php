@@ -45,15 +45,15 @@
     echo'
         <div id="diapoBox">
             <div class="arrowPic" id="previous">
-                <img src="../img/arrow-left.png" alt"Une flèche vers la gauche" loading="lazy">
+                <img src="../img/arrow-left.png" alt="Une flèche vers la gauche" loading="lazy">
             </div>
             <figure class="picGalerie" id="picSelected">
-                <img src="" alt="" loading="lazy">
+                <img src="../img/kelidoine/1.JPEG" alt="La photo sélectionnée" loading="lazy">
                 <figcaption>
                 </figcaption>
             </figure>
             <div class="arrowPic" id="next">
-                <img src="../img/arrow-left.png" alt"Une flèche vers la droite" loading="lazy">
+                <img src="../img/arrow-left.png" alt="Une flèche vers la droite" loading="lazy">
             </div>
             <div id="closer">
             </div>

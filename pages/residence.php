@@ -7,7 +7,7 @@
 
         <li>
             <figure>
-                <img src="../img/maison.svg" alt="Une maison" height="32"/>
+                <img src="../img/maison.svg" alt="Une maison" height="32">
                 <figcaption>
                     1 gîte, 55 m²
                 </figcaption>
@@ -15,7 +15,7 @@
         </li>
         <li>
             <figure>
-                <img src="../img/personnes.svg" alt="Un personnage" height="32"/>
+                <img src="../img/personnes.svg" alt="Un personnage" height="32">
                 <figcaption>
                     5 personnes
                 </figcaption> 
@@ -23,7 +23,7 @@
         </li>
         <li>
             <figure>
-                <img src="../img/chambres.svg" alt="Un lit" height="32"/>
+                <img src="../img/chambres.svg" alt="Un lit" height="32">
                 <figcaption>
                     2 chambres
                 </figcaption>
@@ -31,7 +31,7 @@
         </li>
         <li>
             <figure>
-                <img src="../img/sdb.svg" alt="Une douche" height="32"/>
+                <img src="../img/sdb.svg" alt="Une douche" height="32">
                 <figcaption>
                     1 salle de bain
                 </figcaption>
