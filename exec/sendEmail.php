@@ -25,10 +25,10 @@ if($_POST) {
    // Set Message
    $message = "Mail provenant de: " . $name . "<br />";
 	$message .= "Adresse email: " . $email . "<br />";
-   $message .= "Téléphone: " . $tel . "<br />";
+   $message .= "Telephone: " . $tel . "<br />";
    $message .= "Message: <br />";
    $message .= nl2br($contact_message);
-   $message .= "<br /> ----- <br /> Cet email à été envoyé depuis le site " . url() . " <br />";
+   $message .= "<br /> ----- <br /> Cet email a ete envoye depuis le site " . url() . " <br />";
 
    // Set From: header
    $from =  $name . " <" . $email . ">";
