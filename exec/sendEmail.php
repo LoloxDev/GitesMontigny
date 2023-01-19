@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$to = 'loris_labarre@outlook.fr';
+$to = 'contact@pisserotte-kelidoine.com';
 
 function url(){
   return sprintf(
