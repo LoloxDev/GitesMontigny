@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Les gites de montingy</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/normalize.css" />
+        <title>Pisserotte & Kélidoine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
         <?php
 
             /*Liens css*/
@@ -25,23 +25,21 @@
             ';
         }
 
-        
-
         ?>
-        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../media-querries/media-850max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css">
+        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../media-querries/media-850max.css">
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
         <?php
             if ($_GET['ind'] == 'kelidoine') {
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/kelidoine/moon.jpg"/>';
+                        echo '<link rel="shortcut icon" type="image/png" href="../img/kelidoine/moon.jpg">';
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/pisserotte/sunset.jpg"/>';
+                        echo '<link rel="shortcut icon" type="image/png" href="../img/pisserotte/sunset.jpg">';
                     }
         ?>
         
