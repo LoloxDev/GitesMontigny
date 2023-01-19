@@ -214,14 +214,14 @@
                     <a href="#" title="Twitter">
                         <img src="../img/twitter.png" alt="Logo Twitter"/>
                     </a>
-                </li>!-->
-            </ul>
+                </li>
+            </ul>!-->
             <p class="del">
                 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits reservés | Ce site web a été conçu avec ❤ par <a href="https://lorislabarre.com/Portfolio" target="_blank">Loris Labarre</a>
             </p>
 
         </footer>
-
+    <script src="../js/main.js"></script>
     </body>
-    <script src="../js/main.js" type="text/javascript"></script>
+    
 </html>
