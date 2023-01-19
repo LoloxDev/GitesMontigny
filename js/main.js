@@ -1,4 +1,6 @@
 
+/* Affichage du bouton pour remonter en haut de page seulement en dessous de 100px de scroll */
+
 window.addEventListener('scroll', () => {
     const{scrollTop} = document.documentElement;
 
@@ -13,6 +15,8 @@ window.addEventListener('scroll', () => {
     }
 })
 
+/* Fonction qui permets de remonter */
+
 document.getElementById('arrowUpContain').addEventListener("click", function scrollLent()
 {
     var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
@@ -22,38 +26,6 @@ document.getElementById('arrowUpContain').addEventListener("click", function scr
         setTimeout(scrollLent, 0.1);
     }
 })
-
-/* Apparition des options au hover du header */
-
-document.querySelector('header').addEventListener("mouseenter", function( event ) {
-    event.target.querySelectorAll(".navbarre a").forEach(element => {
-        setTimeout(() => {
-            element.style.opacity = "1";
-            }, 150)         
-    });
-})
-
-document.querySelector('header').addEventListener("mouseleave", function( event ) {
-    event.target.querySelectorAll(".navbarre a").forEach(element => {
-        element.style.opacity = "0";
-    });
-})
-
-
-
-//function activeOpacity(x) {
-//    x.querySelectorAll(".navbarre a").forEach(element => {
-//        setTimeout(() => {
-//            element.style.opacity = "1";
-//          }, 150)
-//    })
-//}
-//
-//function inviOpacity(x) {
-//    x.querySelectorAll(".navbarre a").forEach(element => {
-//        element.style.opacity = "0";
-//    })
-//}
 
 /* Apparition fluide au scroll */
 

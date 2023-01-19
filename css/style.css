@@ -160,9 +160,11 @@ header:hover .navbarre{
     width: calc(50% - 125px);
 }
 
-/*header:hover .navoptions{
+header:hover .navoptions{
     opacity: 1;
-}*/
+    animation: 2s;
+    transition-delay: 250ms;
+}
 
 .navoptions {
     opacity: 0;
