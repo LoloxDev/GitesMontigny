@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/normalize.css">
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <?php
 
             /*Liens css*/
@@ -17,12 +19,6 @@
             echo '<link rel="stylesheet" href="../css/kelidoine.css">';
         } elseif ($_GET['ind'] == 'pisserotte'){
             echo '<link rel="stylesheet" href="../css/pisserotte.css">';
-        }
-
-        if ($_GET['pg'] == 'res' || $_GET['pg'] == 'acc') {
-            echo'<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
-            <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-            ';
         }
 
         ?>
@@ -116,7 +112,31 @@
                 </div>
 
             </nav>
+
+            <ul id="lang-select">
+                <li class="label">
+                    <input type="checkbox" name="fr" id="fr" class="active" value="1">
+                    <label for="fr">
+                        <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
+                    </label>
+                </li>
+                <li class="label">
+                    <input type="checkbox" name="en" id="en" class="active" value="2">
+                    <label for="en">
+                        <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32">
+                    </label>
+                </li>
+                <li class="label">
+                    <input type="checkbox" name="de" id="de" class="active" value="3">
+                    <label for="de">
+                        <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32">
+                    </label>
+                </li>
+            </ul>
+
         </header>
+
+
 
         <label id="burgerContain">
             <input type="checkbox" id="burgerInput">
