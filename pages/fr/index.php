@@ -4,8 +4,8 @@
         <title>Pisserotte & Kélidoine</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/normalize.css">
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <?php
@@ -16,26 +16,26 @@
         }
 
         if ($_GET['ind'] == 'kelidoine') {
-            echo '<link rel="stylesheet" href="../css/kelidoine.css">';
+            echo '<link rel="stylesheet" href="../../css/kelidoine.css">';
         } elseif ($_GET['ind'] == 'pisserotte'){
-            echo '<link rel="stylesheet" href="../css/pisserotte.css">';
+            echo '<link rel="stylesheet" href="../../css/pisserotte.css">';
         }
 
         ?>
-        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css">
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css">
-        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../media-querries/media-850max.css">
-        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css">
-        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css">
+        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../../media-querries/media-1300max.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../../media-querries/media-1000max.css">
+        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../../media-querries/media-850max.css">
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../../media-querries/media-650max.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../../media-querries/media-500max.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
         <?php
             if ($_GET['ind'] == 'kelidoine') {
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/kelidoine/moon.jpg">';
+                        echo '<link rel="shortcut icon" type="image/png" href="../../img/kelidoine/moon.jpg">';
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/pisserotte/sunset.jpg">';
+                        echo '<link rel="shortcut icon" type="image/png" href="../../img/pisserotte/sunset.jpg">';
                     }
         ?>
         
@@ -43,31 +43,37 @@
         
     </head>
 
+    <?php
+                
+        $color = "";
+        $ind = "";
+        $lang = "fr";
+
+    ?>
+
     <body>
+
         <header>
             <nav id="logo">
 
                 <?php
-                
-                $color = "";
-                $ind = "";
-                
-                /* Logo + couleur */
+
+                    /* Logo + couleur */
                     if ($_GET['ind'] == 'kelidoine') {
-                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../img/kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
+                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../../img/kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
                         $color = "yellow";
                         $ind = "kelidoine";
-
+                    
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
+                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../../img/pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
                         $color = "blue";
                         $ind = "pisserotte";
                     } elseif (isset($_GET['ind'])){
-                        header('Location:../index.php');
+                        header('Location:index.php');
                     }
 
+
                 ?>
-                
 
 
                 <div class="navbarre">
@@ -75,11 +81,12 @@
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="<?php echo($color) ?> navoptions X underline">
                         Galerie
                     </a>
+
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="<?php echo($color) ?> navoptions Y underline">
                         Résidence
                     </a>
                     <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="<?php echo($color) ?> navoptions X underline">
-                        Disponibilité & Tarifs
+                        Disponibilité & tarifs
                     </a>
 
                 </div>
@@ -113,26 +120,6 @@
 
             </nav>
 
-            <ul id="lang-select">
-                <li class="label">
-                    <input type="checkbox" name="fr" id="fr" class="active" value="1">
-                    <label for="fr">
-                        <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
-                    </label>
-                </li>
-                <li class="label">
-                    <input type="checkbox" name="en" id="en" class="active" value="2">
-                    <label for="en">
-                        <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32">
-                    </label>
-                </li>
-                <li class="label">
-                    <input type="checkbox" name="de" id="de" class="active" value="3">
-                    <label for="de">
-                        <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32">
-                    </label>
-                </li>
-            </ul>
 
         </header>
 
@@ -152,7 +139,7 @@
                 <?php if ($_GET['ind'] == 'kelidoine') {
 
                 echo'<li>
-                        <a href="index.php?ind=pisserotte&pg=acc" class="water" style="color:rgb(0,74,173)">
+                        <a href="index.php?ind=pisserotte&pg=acc&lang=" class="water" style="color:rgb(0,74,173)">
                             Pisserotte
                         </a>
                     </li>';
@@ -170,6 +157,27 @@
             ?>
             </ul>
         </label>
+
+        <ul id="lang-select">
+            <li class="label">
+                <input type="checkbox" name="fr" id="fr" class="active" value="1">
+                <label for="fr">
+                    <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
+                </label>
+            </li>
+            <li class="label">
+                <input type="checkbox" name="en" id="en" class="active" value="2">
+                <label for="en">
+                    <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32">
+                </label>
+            </li>
+            <li class="label">
+                <input type="checkbox" name="de" id="de" class="active" value="3">
+                <label for="de">
+                    <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32">
+                </label>
+            </li>
+        </ul>
         
         <section class="padding">
                         <?php
@@ -189,7 +197,7 @@
                         ?>
 
                         <div class="picDeco">
-                            <img src="../img/deco-corner.png" alt="">
+                            <img src="../../img/deco-corner.png" alt="">
                         </div>
 
         </section>

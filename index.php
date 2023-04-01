@@ -21,7 +21,7 @@
     <body>
         <section id="menu">
             <div class="flex pages">
-                <a href="pages/index.php?ind=kelidoine&pg=acc" class="imgaccueil">
+                <a href="pages/fr/index.php?ind=kelidoine&pg=acc" class="imgaccueil">
                     <h2>
                         Gîte de la Kélidoine
                     </h2>
@@ -33,7 +33,7 @@
                     </h2>
                     <img class="imageaccueil1" src="img/pont/36.JPEG" alt="photo du Lac de Pont">
                 </a>
-                <a href="pages/index.php?ind=pisserotte&pg=acc" class="imgaccueil">
+                <a href="pages/fr/index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>
                         Gîte de la Pisserotte
                     </h2>
