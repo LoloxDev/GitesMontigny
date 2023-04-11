@@ -867,6 +867,19 @@ footer .underline:after{
 
 /* SELECTEUR DE LANGUE */
 
+#testDiv{
+    height: 59px;
+    width: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    background: #FFF;
+    border-radius: 0 20px 20px 0;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+}
+
 #lang-select{
 
     position: absolute;
@@ -874,17 +887,17 @@ footer .underline:after{
     top: 0;
     z-index: 10;
     width: 50px;
-    height: 248px;
-    background: #FFF;
-    border-radius: 0 15% 15% 0;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+    height: 178px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     overflow: hidden;
 
+}
+
+#testDiv:hover{
+    height: 178px;
 }
 
 #lang-select input{
@@ -896,6 +909,10 @@ footer .underline:after{
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+#lang-select li a{
+    display: flex;
 }
 
 #lang-select li label{
