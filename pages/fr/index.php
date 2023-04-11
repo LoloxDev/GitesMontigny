@@ -158,7 +158,7 @@
             </ul>
         </label>
 
-        <div id="testDiv">
+        <div id="langDiv">
             <ul id="lang-select">
                 <li class="label">
                     <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">

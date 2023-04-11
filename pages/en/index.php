@@ -158,23 +158,25 @@
             </ul>
         </label>
 
-        <ul id="lang-select">
-            <li class="label">
-                <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">
-                    <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
-                </a>
-            </li>
-            <li class="label">
-                <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="en" class="active">
-                    <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
-                </a>
-            </li>
-            <li class="label">
-                <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="de" class="active">
-                    <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
-                </a>
-            </li>
-        </ul>
+        <div id="langDiv">
+            <ul id="lang-select">
+                <li class="label">
+                    <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">
+                        <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+                <li class="label">
+                    <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="en" class="active">
+                        <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+                <li class="label">
+                    <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="de" class="active">
+                        <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
         
         <section class="padding">
                         <?php

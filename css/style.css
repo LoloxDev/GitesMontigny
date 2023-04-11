@@ -867,7 +867,7 @@ footer .underline:after{
 
 /* SELECTEUR DE LANGUE */
 
-#testDiv{
+#langDiv{
     height: 59px;
     width: 50px;
     overflow: hidden;
@@ -896,7 +896,7 @@ footer .underline:after{
 
 }
 
-#testDiv:hover{
+#langDiv:hover{
     height: 178px;
 }
 
