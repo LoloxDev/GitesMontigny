@@ -872,7 +872,7 @@ footer .underline:after{
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 10;
     width: 50px;
     height: 248px;
     background: #FFF;

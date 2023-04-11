@@ -129,7 +129,7 @@
             <input type="checkbox" id="burgerInput">
             <span class="menu"> <span class="hamburger"></span> </span>
             <ul>
-                <li> <img src="../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
+                <li> <img src="../../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=acc" class="underline <?php echo($color) ?>"><span>Accueil</span></a> </li>
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline <?php echo($color) ?>">Disponibilité et tarifs</a> </li>
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="underline <?php echo($color) ?>">Residence</a> </li>
@@ -160,17 +160,17 @@
 
         <ul id="lang-select">
             <li class="label">
-                <a href="../fr/index.php?ind=<?php echo($ind) ?>&pg=acc" id="fr" class="active">
+                <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">
                     <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
                 </a>
             </li>
             <li class="label">
-                <a href="./../en/index.php?ind=<?php echo($ind) ?>&pg=acc" id="en" class="active">
+                <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="en" class="active">
                     <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
                 </a>
             </li>
             <li class="label">
-                <a href="./../de/index.php?ind=<?php echo($ind) ?>&pg=acc" id="de" class="active">
+                <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="de" class="active">
                     <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
                 </a>
             </li>
@@ -188,8 +188,6 @@
                                 include 'galerie.php';
                             } elseif($_GET['pg'] == 'act'){
                                 include 'actloc.php';
-                            } elseif(isset($_GET['pg'])){
-                                $_GET['pg'] == 'acc';
                             }
                         ?>
 
