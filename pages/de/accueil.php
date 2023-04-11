@@ -88,7 +88,7 @@
         <li class="reveal">
 
             <figure id="tourisme">
-                <img src="../../img/logo_agence/3-etoiles.jpg" alt="logo du meublé de tourisme 3 étoiles">
+                <img src="../../img/logo_agence/3-etoiles.jpg" alt="Logo der 3-Sterne-Touristenunterkunft">
             </figure>
 
         </li>
@@ -97,7 +97,7 @@
 
             <figure id="gites-fr">
                 <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm">
-                    <img src="../../img/logo_agence/gites-fr.png" alt="Logo de gites.fr">
+                    <img src="../../img/logo_agence/gites-fr.png" alt="Logo vongites.fr">
                 </a>
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
@@ -116,7 +116,7 @@
 
             <figure id="airbnb">
                 <a href="https://www.airbnb.fr/rooms/21588355?source_impression_id=p3_1657617711_M%2FVxCrrccF6ugbq%2B">
-                    <img src="../../img/logo_agence/airbnb.svg" alt="Le logo AirBnb">
+                    <img src="../../img/logo_agence/airbnb.svg" alt="Logo von AirBnb">
                 </a>
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
@@ -141,10 +141,10 @@
 
                 <figure id="booking">
                     <a href="https://www.booking.com/hotel/fr/1-rue-du-champois.fr.html">
-                        <img src="../../img/logo_agence/booking.svg" alt="Le logo de Booking">
+                        <img src="../../img/logo_agence/booking.svg" alt="Logo von Booking">
                     </a>
                     <figcaption>
-                        <img src="../../img/pisserotte/avis/notes_booking_pisserotte.png" alt="La note de Booking">
+                        <img src="../../img/pisserotte/avis/notes_booking_pisserotte.png" alt="Die Bewertung von Booking">
                     </figcaption>
                 </figure>
 
@@ -154,10 +154,10 @@
 
                 <figure id="abritel">
                     <a href="https://www.abritel.fr/location-vacances/p1630920">
-                        <img src="../../img/logo_agence/abritel.svg" alt="Le logo d\'Abritel\'">
+                        <img src="../../img/logo_agence/abritel.svg" alt="Logo von Abritel">
                     </a>
                     <figcaption>
-                        <img src="../../img/pisserotte/avis/notes_abritel_pisserotte.png" alt="La note de Abritel">
+                        <img src="../../img/pisserotte/avis/notes_abritel_pisserotte.png" alt="Die Bewertung vonAbritel">
                     </figcaption>
                 </figure>
 

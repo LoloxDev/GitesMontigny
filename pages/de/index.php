@@ -129,7 +129,7 @@
             <input type="checkbox" id="burgerInput">
             <span class="menu"> <span class="hamburger"></span> </span>
             <ul>
-                <li> <img src="../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
+                <li> <img src="../../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=acc" class="underline <?php echo($color) ?>"><span>Willkommen</span></a> </li>
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline <?php echo($color) ?>">Verfügbarkeit und Preise</a> </li>
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="underline <?php echo($color) ?>">Residenz</a> </li>

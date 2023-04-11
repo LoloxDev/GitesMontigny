@@ -1,5 +1,5 @@
 <h2 class="reveal">
-    Résidence
+    Residenz
 </h2>
 
 <div class="slider">
@@ -9,7 +9,7 @@
             <figure>
                 <img src="../../img/maison.svg" alt="Une maison" height="32">
                 <figcaption>
-                    1 gîte, 55 m²
+                    1 Ferienhaus, 55 m²
                 </figcaption>
             </figure>
         </li>
@@ -17,7 +17,7 @@
             <figure>
                 <img src="../../img/personnes.svg" alt="Un personnage" height="32">
                 <figcaption>
-                    5 personnes
+                    5 Menschen
                 </figcaption> 
             </figure>
         </li>
@@ -25,7 +25,7 @@
             <figure>
                 <img src="../../img/chambres.svg" alt="Un lit" height="32">
                 <figcaption>
-                    2 chambres
+                    2 Schlafzimmer
                 </figcaption>
             </figure>
         </li>
@@ -33,7 +33,7 @@
             <figure>
                 <img src="../../img/sdb.svg" alt="Une douche" height="32">
                 <figcaption>
-                    1 salle de bain
+                    1 Badezimmer
                 </figcaption>
             </figure>
         </li>
@@ -41,7 +41,7 @@
             <figure>
                 <span class="iconify" data-icon="dashicons:pets" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Animaux acceptés
+                    Akzeptierte Tiere
                 </figcaption>
             </figure>
         </li>
@@ -49,7 +49,7 @@
             <figure>
                 <span class="iconify" data-icon="iconoir:washing-machine" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Lave-linge
+                    Waschmaschine
                 </figcaption>
             </figure>
         </li>
@@ -57,7 +57,7 @@
             <figure>
                 <span class="iconify" data-icon="akar-icons:wifi" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Wifi gratuit
+                    gratis Wifi
                 </figcaption>
             </figure>
         </li>
@@ -65,7 +65,7 @@
             <figure>
                 <span class="iconify" data-icon="bi:tv" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Télévision
+                    Fernsehen
                 </figcaption>
             </figure>
         </li>
@@ -73,7 +73,7 @@
             <figure>
                 <span class="iconify" data-icon="ic:baseline-smoke-free" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Logement non fumeur
+                    Nichtraucherunterkunft
                 </figcaption>
             </figure>
         </li>
@@ -81,7 +81,7 @@
             <figure>
                 <span class="iconify" data-icon="uil:parking-square" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Parking privé
+                    Privater Parkplatz
                 </figcaption>
             </figure>
         </li>
@@ -89,7 +89,7 @@
             <figure>
                 <span class="iconify" data-icon="material-symbols:laundry-outline" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Draps et linge de toilette fournis
+                    Bettwäsche und Handtücher inklusive
                 </figcaption>
             </figure>
         </li>
@@ -97,7 +97,7 @@
             <figure>
                 <span class="iconify" data-icon="ph:bird-bold" style="color: #444; font-size: 32px;"></span>
                 <figcaption>
-                    Calme et reposant
+                    Ruhig und entspannend
                 </figcaption>
             </figure>
         </li>
@@ -105,7 +105,7 @@
             <figure>
                 <img  src="../../img/non-access.png" alt="non accesible aux personnes à mobilité réduite" height="70">
                 <figcaption>
-                    Non accessible aux personnes à mobilité réduite
+                    Nicht zugänglich für Personen mit eingeschränkter Mobilität
                 </figcaption>
             </figure>
         </li>
@@ -114,14 +114,14 @@
 
 
 
-<h2 class="reveal">La cuisine</h2>
+<h2 class="reveal">Die Küche</h2>
 
 <ul class="flexResi">
     <li>
         <figure>
             <span class="iconify" data-icon="cil:fridge" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Réfrigérateur + congélateur
+                Kühlschrank + Gefrierschrank
             </figcaption>
         </figure>
     </li>
@@ -129,7 +129,7 @@
         <figure>
             <span class="iconify" data-icon="iconoir:dishwasher" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Lave-Vaisselle
+                Geschirrspüler
             </figcaption>
         </figure>
     </li>
@@ -137,7 +137,7 @@
         <figure>
         <span class="iconify" data-icon="carbon:cafe" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Machine à café
+                Kaffeemaschine
             </figcaption>
         </figure>
     </li>
@@ -145,7 +145,7 @@
         <figure>
         <span class="iconify" data-icon="mdi:kettle-steam-outline" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Bouilloire
+                Wasserkocher
             </figcaption>
         </figure>
     </li>
@@ -153,7 +153,7 @@
         <figure>
         <span class="iconify" data-icon="material-symbols:oven-gen" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Four
+                Ofen
             </figcaption>
         </figure>
     </li>
@@ -161,7 +161,7 @@
         <figure>
         <span class="iconify" data-icon="mdi:toaster" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Grille-pain
+                Toaster
             </figcaption>
         </figure>
     </li>
@@ -169,7 +169,7 @@
         <figure>
         <span class="iconify" data-icon="tabler:microwave" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Micro-ondes
+                Mikrowelle
             </figcaption>
         </figure>
     </li>
@@ -177,7 +177,7 @@
         <figure>
         <span class="iconify" data-icon="tabler:tools-kitchen" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Ustensiles de cuisine
+                Kochutensilien
             </figcaption>
         </figure>
     </li>
@@ -185,20 +185,20 @@
         <figure>
         <span class="iconify" data-icon="material-symbols:cooking-outline" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Plaques de cuisson
+                Heiße Teller
             </figcaption>
         </figure>
     </li>
 </ul>
 
-<h2 class="reveal">Extérieur</h2>
+<h2 class="reveal">Außen</h2>
 
 <ul class="flexResi">
     <li>
         <figure>
             <span class="iconify" data-icon="carbon:asset-view" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Vue sur la foret et sur la rivière
+                Sicht auf den Wald und den Fluss
             </figcaption>
         </figure>
     </li>
@@ -206,7 +206,7 @@
         <figure>
             <span class="iconify" data-icon="bx:chair" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Transats
+                Liegestühle
             </figcaption>
         </figure>
     </li>
@@ -214,7 +214,7 @@
         <figure>
         <span class="iconify" data-icon="icon-park-solid:cooking" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Barbecue & plancha
+                Grill & Bratpfanne
             </figcaption>
         </figure>
     </li>
@@ -222,7 +222,7 @@
         <figure>
             <span class="iconify" data-icon="ep:cold-drink" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Terrasse & jardin
+                Terrasse & Garten
             </figcaption>
         </figure>
     </li>
@@ -230,7 +230,7 @@
         <figure>
             <span class="iconify" data-icon="ic:twotone-table-bar" style="color: #444; font-size: 32px;"></span>
             <figcaption>
-                Mobilier de jardin
+                Gartenmöbel
             </figcaption>
         </figure>
     </li>
