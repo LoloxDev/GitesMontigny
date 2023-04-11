@@ -4,8 +4,8 @@
         <title>Pisserotte & Kélidoine</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/normalize.css">
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <?php
@@ -16,26 +16,26 @@
         }
 
         if ($_GET['ind'] == 'kelidoine') {
-            echo '<link rel="stylesheet" href="../css/kelidoine.css">';
+            echo '<link rel="stylesheet" href="../../css/kelidoine.css">';
         } elseif ($_GET['ind'] == 'pisserotte'){
-            echo '<link rel="stylesheet" href="../css/pisserotte.css">';
+            echo '<link rel="stylesheet" href="../../css/pisserotte.css">';
         }
 
         ?>
-        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../media-querries/media-1300max.css">
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../media-querries/media-1000max.css">
-        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../media-querries/media-850max.css">
-        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../media-querries/media-650max.css">
-        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../media-querries/media-500max.css">
+        <link rel="stylesheet" media="screen and (max-width: 1300px)" href="../../media-querries/media-1300max.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../../media-querries/media-1000max.css">
+        <link rel="stylesheet" media="screen and (max-width: 850px)" href="../../media-querries/media-850max.css">
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../../media-querries/media-650max.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="../../media-querries/media-500max.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
         <?php
             if ($_GET['ind'] == 'kelidoine') {
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/kelidoine/moon.jpg">';
+                        echo '<link rel="shortcut icon" type="image/png" href="../../img/kelidoine/moon.jpg">';
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<link rel="shortcut icon" type="image/png" href="../img/pisserotte/sunset.jpg">';
+                        echo '<link rel="shortcut icon" type="image/png" href="../../img/pisserotte/sunset.jpg">';
                     }
         ?>
         
@@ -47,11 +47,7 @@
                 
         $color = "";
         $ind = "";
-        $lang = "fr";
-
-        if (isset($_GET['lang'])) {
-            $lang = $_GET['lang'];
-        }
+        $lang = "en";
 
     ?>
 
@@ -60,27 +56,24 @@
         <header>
             <nav id="logo">
 
-
                 <?php
 
                     /* Logo + couleur */
                     if ($_GET['ind'] == 'kelidoine') {
-                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../img/kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
+                        echo '<a href="index.php?ind=kelidoine&pg=acc"><img id="Keli" src="../../img/kelidoine/logo_kelidoine.png" alt="logo kélidoine"></a>';
                         $color = "yellow";
                         $ind = "kelidoine";
                     
                     } elseif ($_GET['ind'] == 'pisserotte'){
-                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../img/pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
+                        echo '<a href="index.php?ind=pisserotte&pg=acc"><img id="Piss" src="../../img/pisserotte/logo_pisserotte.png" alt="logo pisserotte"></a>';
                         $color = "blue";
                         $ind = "pisserotte";
                     } elseif (isset($_GET['ind'])){
-                        header('Location:../index.php');
+                        header('Location:index.php');
                     }
 
 
                 ?>
-            
-
 
 
                 <div class="navbarre">
@@ -136,18 +129,17 @@
             <input type="checkbox" id="burgerInput">
             <span class="menu"> <span class="hamburger"></span> </span>
             <ul>
-                
                 <li> <img src="../img/<?php echo($_GET['ind']) ?>/logo_<?php echo($_GET['ind']) ?>.png" alt=""> </li> 
-                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=acc" class="underline <?php echo($color) ?>"><span>Reception</span></a> </li>
-                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline <?php echo($color) ?>">Availability & prices</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=acc" class="underline <?php echo($color) ?>"><span>Accueil</span></a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=dis" class="underline <?php echo($color) ?>">Disponibilité et tarifs</a> </li>
                 <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=res" class="underline <?php echo($color) ?>">Residence</a> </li>
-                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="underline <?php echo($color) ?>">Gallery</a> </li>
-                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="underline <?php echo($color) ?>">Activities & Tourism</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=gal" class="underline <?php echo($color) ?>">Galerie</a> </li>
+                <li> <a href="index.php?ind=<?php echo($ind) ?>&pg=act" class="underline <?php echo($color) ?>">Activités & tourisme</a> </li>
                 <li> <a href="http://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline <?php echo($color) ?>">Lac de Pont</a> </li>
                 <?php if ($_GET['ind'] == 'kelidoine') {
 
                 echo'<li>
-                        <a href="index.php?ind=pisserotte&pg=acc" class="water" style="color:rgb(0,74,173)">
+                        <a href="index.php?ind=pisserotte&pg=acc&lang=" class="water" style="color:rgb(0,74,173)">
                             Pisserotte
                         </a>
                     </li>';
@@ -205,13 +197,13 @@
                         ?>
 
                         <div class="picDeco">
-                            <img src="../img/deco-corner.png" alt="">
+                            <img src="../../img/deco-corner.png" alt="">
                         </div>
 
         </section>
 
         <div id="arrowUpContain">
-            <img src="../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
+            <img src="../../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
         </div>
 
         <footer class="flex">
@@ -253,11 +245,11 @@
                 </li>
             </ul>!-->
             <p class="del">
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All right reserved | This website has been designed with ❤ par <a href="#" target="_blank">Loris Labarre</a>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All right reserved | This website has been designed with ❤ par <a href="https://lorislabarre.com/Portfolio" target="_blank">Loris Labarre</a>
             </p>
 
         </footer>
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
     </body>
     
 </html>

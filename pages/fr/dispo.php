@@ -13,7 +13,7 @@
 
 <h3>Formulaire de contact</h3>
 
-<form action="../exec/sendEmail.php?ind=<?php echo($_GET['ind']) ?>" id="contact" method="post">
+<form action="../../exec/sendEmail.php?ind=<?php echo($_GET['ind']) ?>" id="contact" method="post">
 
   <label for="fname">Nom & prénom</label>
   <input type="text" id="fname" name="name">

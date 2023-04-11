@@ -203,7 +203,7 @@
         </section>
 
         <div id="arrowUpContain">
-            <img src="../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
+            <img src="../../img/<?php echo($ind) ?>/arrow-up.png" alt="Une flèche pour remonter">
         </div>
 
         <footer class="flex">
@@ -249,7 +249,7 @@
             </p>
 
         </footer>
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
     </body>
     
 </html>

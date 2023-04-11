@@ -30,7 +30,7 @@
             <li id="pic'.$i.'" onClick="openPic()">
 
                 <figure class="picGalerie">
-                    <img src="../img/'.$_GET['ind'].'/'.$i.'.JPEG" alt="" loading="lazy">
+                    <img src="../../img/'.$_GET['ind'].'/'.$i.'.JPEG" alt="" loading="lazy">
                     <figcaption>
                     </figcaption>
                 </figure>
@@ -45,15 +45,15 @@
     echo'
         <div id="diapoBox">
             <div class="arrowPic" id="previous">
-                <img src="../img/arrow-left.png" alt="Une flèche vers la gauche" loading="lazy">
+                <img src="../../img/arrow-left.png" alt="Une flèche vers la gauche" loading="lazy">
             </div>
             <figure class="picGalerie" id="picSelected">
-                <img src="../img/kelidoine/1.JPEG" alt="La photo sélectionnée" loading="lazy">
+                <img src="../../img/kelidoine/1.JPEG" alt="La photo sélectionnée" loading="lazy">
                 <figcaption>
                 </figcaption>
             </figure>
             <div class="arrowPic" id="next">
-                <img src="../img/arrow-left.png" alt="Une flèche vers la droite" loading="lazy">
+                <img src="../../img/arrow-left.png" alt="Une flèche vers la droite" loading="lazy">
             </div>
             <div id="closer">
             </div>

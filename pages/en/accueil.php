@@ -2,10 +2,10 @@
             echo'
                 <div id="containTitle">
                     <h2>
-                        Présentation du gîte
+                        Presentation of the cottage
                     </h2>
                     <div class="picDecoTitle reveal">
-                        <img src="../img/'.($_GET['ind']).'/deco.png" alt="">
+                        <img src="../../img/'.($_GET['ind']).'/deco.png" alt="">
                     </div>
                 </div>
             '
@@ -14,11 +14,11 @@
 
 <p class="pAcc">
     <?php if($_GET['ind'] == 'kelidoine') {
-        echo'<span class="firstLetter">L</span>e gîte de la Kélidoine, offre un séjour détente pour toute la famille ou pour se retrouver entre amis. Situé en pleine nature, vous pourrez vous ressourcer tout en profitant des aménagements du lac de Pont et de ses animations. <br> La région est très touristique et propose de nombreux sites à découvrir.
-        Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes.';
+        echo'<span class="firstLetter">T</span>he gîte de la Kélidoine offers a relaxing stay for the whole family or to meet up with friends. Located in the heart of nature, you can recharge your batteries while enjoying the facilities of Lac de Pont and its entertainment. </br>The region is very touristy and offers many sites to discover.
+        Easy to access, motorway exit and shops less than 10 minutes away.';
     } elseif($_GET['ind'] == 'pisserotte') {
-        echo'<span class="firstLetter">L</span>e gîte de la Pisserotte, situé en pleine nature dans un environnement calme et paisible vous permettra  de vous ressourcer tout en profitant des aménagements du lac de Pont et de ses animations. <br> La région est très touristique et propose de nombreux sites à découvrir.
-        Facile d’accès, sortie d’autoroute et commerces à moins de 10 minutes.';
+        echo'<span class="firstLetter">T</span>he Gîte de la Pisserotte, located in the heart of nature in a calm and peaceful environment, will allow you to recharge your batteries while enjoying the facilities of Lac de Pont and its entertainment. </br>The region is very touristy and offers many sites to discover.
+        Easy to access, motorway exit and shops less than 10 minutes away.';
     } ?>
 </p>
 
@@ -28,9 +28,9 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/kelidoine/24.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                echo'<img src="../../img/kelidoine/24.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } elseif($_GET['ind'] == 'pisserotte') {
-                    echo'<img src="../img/pisserotte/11.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                    echo'<img src="../../img/pisserotte/11.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } ?>
             
             <figcaption>
@@ -41,9 +41,9 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/kelidoine/7.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                echo'<img src="../../img/kelidoine/7.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } elseif($_GET['ind'] == 'pisserotte') {
-                    echo'<img src="../img/pisserotte/2.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                    echo'<img src="../../img/pisserotte/2.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } ?>
             <figcaption>
             </figcaption>
@@ -53,9 +53,9 @@
     <li>
         <figure>
             <?php if($_GET['ind'] == 'kelidoine') {
-                echo'<img src="../img/kelidoine/19.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                echo'<img src="../../img/kelidoine/19.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } elseif($_GET['ind'] == 'pisserotte') {
-                    echo'<img src="../img/pisserotte/19.JPEG" alt="Une photo du paysage de Montigny" class="carrous">';
+                    echo'<img src="../../img/pisserotte/19.JPEG" alt="A photo of the landscape of Montigny" class="carrous">';
             } ?>
             <figcaption>
             </figcaption>
@@ -66,11 +66,12 @@
 <p class="pAcc reveal">
     <iconify-icon icon="clarity:help-info-solid"></iconify-icon>
     <?php if($_GET['ind'] == 'kelidoine') {
-        echo'Pourquoi "Kélidoine" ? <br><br>
-        La Chélidoine, est une plante sauvage et médicinale. On la reconnait à son feuillage vert tendre, sa sève et ses fleurs jaune vif. Elle pousse abondamment aux abords du gîte.';
+        echo'Why "Kélidoine" ? <br><br>
+        
+        Celandine is a wild and medicinal plant. It is recognized by its soft green foliage, its sap and its bright yellow flowers. It grows abundantly around the gîte.';
     } elseif($_GET['ind'] == 'pisserotte') {
-        echo'Pourquoi "Pisserotte" ? <br><br>
-        La Pisserotte est un ruisseau tout proche qui se déverse dans le lac. Vous la rencontrerez en empruntant le chemin de randonnée.';
+        echo'Why "Pisserotte" ? <br><br>
+        La Pisserotte is a nearby stream that flows into the lake. You will meet her by taking the hiking trail.';
     } ?>
 </p>
 
@@ -80,7 +81,7 @@
 <div id="notesBloc">
     
         <h2 class="reveal">
-            Notes et Avis
+            Ratings and Reviews
         </h2>
 
     <ul id="notes">
@@ -88,7 +89,7 @@
         <li class="reveal">
 
             <figure id="tourisme">
-                <img src="../img/logo_agence/3-etoiles.jpg" alt="logo du meublé de tourisme 3 étoiles">
+                <img src="../../img/logo_agence/3-etoiles.jpg" alt="3-star tourist accommodation logo">
             </figure>
 
         </li>
@@ -97,15 +98,15 @@
 
             <figure id="gites-fr">
                 <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm">
-                    <img src="../img/logo_agence/gites-fr.png" alt="Logo de gites.fr">
+                    <img src="../../img/logo_agence/gites-fr.png" alt="Logo of gites.fr">
                 </a>
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
                         echo'
-                        <img src="../img/pisserotte/avis/notes_gites_pisserotte.png" alt="9.7 / 10">';
+                        <img src="../../img/pisserotte/avis/notes_gites_pisserotte.png" alt="9.7 / 10">';
                     } elseif($_GET['ind'] == 'kelidoine') {
                         echo'
-                        <img src="../img/kelidoine/avis/gites-fr.png" alt="8.9 / 10">';
+                        <img src="../../img/kelidoine/avis/gites-fr.png" alt="8.9 / 10">';
                     } ?>
                 </figcaption>
             </figure>
@@ -116,15 +117,15 @@
 
             <figure id="airbnb">
                 <a href="https://www.airbnb.fr/rooms/21588355?source_impression_id=p3_1657617711_M%2FVxCrrccF6ugbq%2B">
-                    <img src="../img/logo_agence/airbnb.svg" alt="Le logo AirBnb">
+                    <img src="../../img/logo_agence/airbnb.svg" alt="The Airbnb logo">
                 </a>
                 <figcaption>
                     <?php if($_GET['ind'] == 'pisserotte') {
                         echo'
-                        <img src="../img/pisserotte/avis/notes_air_pisserotte.png" alt="4.92 / 5">';
+                        <img src="../../img/pisserotte/avis/notes_air_pisserotte.png" alt="4.92 / 5">';
                     } elseif($_GET['ind'] == 'kelidoine') {
                         echo'
-                        <img src="../img/kelidoine/avis/airbnb.png" alt="4.50 / 5">';
+                        <img src="../../img/kelidoine/avis/airbnb.png" alt="4.50 / 5">';
                     } ?>
                     
                 </figcaption>
@@ -141,10 +142,10 @@
 
                 <figure id="booking">
                     <a href="https://www.booking.com/hotel/fr/1-rue-du-champois.fr.html">
-                        <img src="../img/logo_agence/booking.svg" alt="Le logo de Booking">
+                        <img src="../../img/logo_agence/booking.svg" alt="The Booking logo">
                     </a>
                     <figcaption>
-                        <img src="../img/pisserotte/avis/notes_booking_pisserotte.png" alt="La note de Booking">
+                        <img src="../../img/pisserotte/avis/notes_booking_pisserotte.png" alt="The rating of Booking">
                     </figcaption>
                 </figure>
 
@@ -154,10 +155,10 @@
 
                 <figure id="abritel">
                     <a href="https://www.abritel.fr/location-vacances/p1630920">
-                        <img src="../img/logo_agence/abritel.svg" alt="Le logo d\'Abritel\'">
+                        <img src="../../img/logo_agence/abritel.svg" alt="The Abritel logo">
                     </a>
                     <figcaption>
-                        <img src="../img/pisserotte/avis/notes_abritel_pisserotte.png" alt="La note de Abritel">
+                        <img src="../../img/pisserotte/avis/notes_abritel_pisserotte.png" alt="The rating of Abritel">
                     </figcaption>
                 </figure>
 

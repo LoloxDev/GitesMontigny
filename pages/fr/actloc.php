@@ -68,6 +68,6 @@
 </div>
 
 <div id="containMontignyPic">
-    <img src="../img/montigny/les_gites.jpg" alt="Une photo du village de Montigny">
+    <img src="../../img/montigny/les_gites.jpg" alt="Une photo du village de Montigny">
 </div>
 

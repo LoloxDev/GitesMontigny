@@ -1,37 +1,37 @@
 <h2 class="reveal">
-    Activités et tourisme
+    Activities & Tourism
 </h2>
 
 <div id="actContain">
     <div>
         <h3>
-            Les villages et lieux à visiter aux alentours
+            Villages and places to visit nearby
         </h3>
 
         <ul>
             <li>
-                <a href ="https://www.ville-semur-en-auxois.fr/" class="underline" target="blank">Semur en Auxois</a>, cité médiévale et fortifiée.
+                <a href ="https://www.ville-semur-en-auxois.fr/" class="underline" target="blank">Semur en Auxois</a>, medieval and fortified city.
             </li>
             <li>
                 <a href ="https://saulieu.fr/" class="underline" target="blank">Saulieu</a>, Morvan, restaurant Loiseau.
             </li>
             <li>
-                <a href ="https://www.tourisme-yonne.com/lyonne-en-bourgogne/les-tresors-de-lyonne/avallon-porte-du-morvan/" class="underline" target="blank">Avallon</a>, cité médiévale et fortifiée.
+                <a href ="https://www.tourisme-yonne.com/lyonne-en-bourgogne/les-tresors-de-lyonne/avallon-porte-du-morvan/" class="underline" target="blank">Avallon</a>, medieval and fortified city.
             </li>
             <li>
-                <a href ="https://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline" target="blank">Le lac de Pont</a>, randonnée, tour du lac 13 km.
+                <a href ="https://www.terres-auxois.fr/activites-loisirs-nature/lac-de-pont/" class="underline" target="blank">Le lac de Pont</a>, hiking, around the lake 13 km.
             </li>
             <li>
-                <a href="https://flavigny-sur-ozerain.fr/" class="underline" target="blank">Flavigny sur Ozerain</a>, village médiéval, fabrication artisanale des célebres bonbons à l'anis.
+                <a href="https://flavigny-sur-ozerain.fr/" class="underline" target="blank">Flavigny sur Ozerain</a>, medieval village, artisanal production of the famous anise sweets.
             </li>
             <li>
-                <a href="https://www.chateau-bussy-rabutin.fr/" class="underline" target="blank">Chateau de Bussy Rabutin</a>, château de style Renaissance initialement bâti aux XIIᵉ siècle et XIVᵉ siècle.
+                <a href="https://www.chateau-bussy-rabutin.fr/" class="underline" target="blank">Castle of Bussy Rabutin</a>, Renaissance-style castle originally built in the 12th century and 14th century.
             </li>
             <li>
-                <a href="https://www.alesia.com/" class="underline" target="blank">MuséoParc Alésia</a>, sîte touristique constitué de deux musées et d'un parc de 7 000 hectares sur les thèmes de « l'histoire du siège d'Alésia ».
+                <a href="https://www.alesia.com/" class="underline" target="blank">MuséoParc Alésia</a>, tourist site made up of two museums and a 7,000-hectare park on the themes of "the history of the siege of Alésia".
             </li>
             <li>
-                <a href="https://www.parc-auxois.fr/" class="underline" target="blank">Parc de l'Auxois</a> est un parc zoologique et de loisirs. Plus de 500 animaux, balade en nature, piscine, jeux attractifs.
+                <a href="https://www.parc-auxois.fr/" class="underline" target="blank">Parc de l'Auxois</a> is a zoo and leisure park. More than 500 animals, walks in nature, swimming pool, attractive games.
             </li>
 
         </ul>
@@ -39,35 +39,35 @@
 
     <div>
         <h3>
-            Sports et Activités
+            Sports and Activities
         </h3>
         <ul>
             <li>
-                Pêche
+                Fishing
             </li>
             <li>
-                Randonnée
+                Hiking
             </li>
             <li>
-                Vélo
+                Bike
             </li>
             <li>
-                L'été : baignade, pédalo, kanoé kayac ...
+                Summer: swimming, pedalo, kanoé kayak...
             </li>
             <li>
-                AccroBranche
+                HookedBranch
             </li>
             <li>
                 Golf
             </li>
             <li>
-                Equitation
+                Horse riding
             </li>
         </ul>
     </div>
 </div>
 
 <div id="containMontignyPic">
-    <img src="../img/montigny/les_gites.jpg" alt="Une photo du village de Montigny">
+    <img src="../../img/montigny/les_gites.jpg" alt="A photo of the village of Montigny">
 </div>
 
