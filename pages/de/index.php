@@ -160,22 +160,19 @@
 
         <ul id="lang-select">
             <li class="label">
-                <input type="checkbox" name="fr" id="fr" class="active" value="1">
-                <label for="fr">
+                <a href="../fr/index.php?ind=<?php echo($ind) ?>&pg=acc" id="fr" class="active">
                     <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
-                </label>
+                </a>
             </li>
             <li class="label">
-                <input type="checkbox" name="en" id="en" class="active" value="2">
-                <label for="en">
-                    <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32">
-                </label>
+                <a href="./../en/index.php?ind=<?php echo($ind) ?>&pg=acc" id="en" class="active">
+                    <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
+                </a>
             </li>
             <li class="label">
-                <input type="checkbox" name="de" id="de" class="active" value="3">
-                <label for="de">
-                    <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32">
-                </label>
+                <a href="./../de/index.php?ind=<?php echo($ind) ?>&pg=acc" id="de" class="active">
+                    <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
+                </a>
             </li>
         </ul>
         

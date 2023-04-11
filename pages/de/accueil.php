@@ -2,7 +2,7 @@
             echo'
                 <div id="containTitle">
                     <h2>
-                        Présentation du gîte
+                        Präsentation der Hütte
                     </h2>
                     <div class="picDecoTitle reveal">
                         <img src="../../img/'.($_GET['ind']).'/deco.png" alt="">
