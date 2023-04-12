@@ -31,7 +31,6 @@ section:not(#menu){
     display: flex;
     flex-direction: column;
     position: relative;
-    text-align: center;
 }
 
 section:not(#menu) h2{
