@@ -918,3 +918,12 @@ footer .underline:after{
 #lang-select li label{
     height: 32px;
 }
+
+#lang-select .label a{
+    transition: 0.2s;
+}
+
+#lang-select .label a:hover{
+    transform: scale(1.1);
+    
+}

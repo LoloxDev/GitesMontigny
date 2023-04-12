@@ -49,6 +49,7 @@
         $ind = "";
         $lang = "fr";
 
+
     ?>
 
     <body>
@@ -161,17 +162,37 @@
         <div id="langDiv">
             <ul id="lang-select">
                 <li class="label">
-                    <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">
+                    <a href="../<?php echo($flags[0]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[0]) ?>" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+                <li class="label">
+                    <a href="./../<?php echo($flags[1]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[1]) ?>" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+                <li class="label">
+                    <a href="./../<?php echo($flags[2]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[2]) ?>" data-width="32" data-height="32"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="langDiv">
+            <ul id="lang-select">
+                <li class="label">
+                    <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="<?php echo($flags[0]) ?>" class="active">
                         <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
                     </a>
                 </li>
                 <li class="label">
-                    <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="en" class="active">
+                    <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="<?php echo($flags[1]) ?>" class="active">
                         <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
                     </a>
                 </li>
                 <li class="label">
-                    <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="de" class="active">
+                    <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="<?php echo($flags[2]) ?>" class="active">
                         <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
                     </a>
                 </li>

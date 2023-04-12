@@ -158,21 +158,43 @@
             </ul>
         </label>
 
+        <?php
+
+            $flags = array('fr','en','de');
+
+            // Récupère le nom de dossier dans l'URL
+            if (isset($_SERVER['REQUEST_URI'])) {
+                $url = explode('/', $_SERVER['REQUEST_URI']);
+                $dossier = $url[count($url) - 2]; // Le nom de dossier est l'avant-dernier élément du tableau
+                // Vérifie si le nom de dossier correspond à l'une des langues
+                if (in_array($dossier, $flags)) {
+                  // Supprime la langue de son ancienne position dans le tableau
+                  $key = array_search($dossier, $flags);
+                  if ($key !== false) {
+                    unset($flags[$key]);
+                  }
+                  // Ajoute la langue en première position du tableau
+                  array_unshift($flags, $dossier);
+                }
+              }
+
+        ?>
+
         <div id="langDiv">
             <ul id="lang-select">
                 <li class="label">
-                    <a href="../fr/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="fr" class="active">
-                        <span class="iconify" data-icon="circle-flags:fr" data-width="32" data-height="32"></span>
+                    <a href="../<?php echo($flags[0]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[0]) ?>" data-width="32" data-height="32"></span>
                     </a>
                 </li>
                 <li class="label">
-                    <a href="./../en/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="en" class="active">
-                        <span class="iconify" data-icon="circle-flags:en" data-width="32" data-height="32"></span>
+                    <a href="./../<?php echo($flags[1]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[1]) ?>" data-width="32" data-height="32"></span>
                     </a>
                 </li>
                 <li class="label">
-                    <a href="./../de/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" id="de" class="active">
-                        <span class="iconify" data-icon="circle-flags:de" data-width="32" data-height="32"></span>
+                    <a href="./../<?php echo($flags[2]) ?>/index.php?ind=<?php echo($ind).'&pg='.($_GET['pg']) ?>" class="active">
+                        <span class="iconify" data-icon="circle-flags:<?php echo($flags[2]) ?>" data-width="32" data-height="32"></span>
                     </a>
                 </li>
             </ul>
