@@ -46,7 +46,7 @@ if($_POST) {
       
       
 
-      header('Location: ../pages/index.php?ind='.($_GET['ind']).'&pg=dis&msg=true');
+      header('Location: ../pages/fr/index.php?ind='.($_GET['ind']).'&pg=dis&msg=true');
       exit();
       
 
