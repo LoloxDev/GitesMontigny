@@ -21,7 +21,7 @@
             <div class="flex pages">
                 <a href="index.php?ind=kelidoine&pg=acc" class="imgaccueil">
                     <h2>
-                        Gîte de la Kélidoine
+                        <strong>Gîte de la Kélidoine</strong>
                     </h2>
                     <img class="imageaccueil1" src="../img/kelidoine/chelidoine.jpg" alt="photo du gite de Kélidoine">
                 </a>
@@ -33,7 +33,7 @@
                 </a>
                 <a href="index.php?ind=pisserotte&pg=acc" class="imgaccueil">
                     <h2>
-                        Gîte de la Pisserotte
+                        <strong>Gîte de la Pisserotte</strong>
                     </h2>
                     <img class="imageaccueil2" src="../img/pisserotte/pisserotte.jpg" alt="photo du gite de la Pisserotte">
                 </a>
