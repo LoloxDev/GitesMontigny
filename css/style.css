@@ -31,6 +31,7 @@ section:not(#menu){
     display: flex;
     flex-direction: column;
     position: relative;
+    text-align: center;
 }
 
 section:not(#menu) h2{
@@ -862,4 +863,67 @@ footer .underline:after{
     100% {
         transform: translateY(5%);
     }
+}
+
+/* SELECTEUR DE LANGUE */
+
+#langDiv{
+    height: 59px;
+    width: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    background: #FFF;
+    border-radius: 0 20px 20px 0;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+}
+
+#lang-select{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 50px;
+    height: 178px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+#langDiv:hover{
+    height: 178px;
+}
+
+#lang-select input{
+    display: none;
+}
+
+#lang-select li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#lang-select li a{
+    display: flex;
+}
+
+#lang-select li label{
+    height: 32px;
+}
+
+#lang-select .label a{
+    transition: 0.2s;
+}
+
+#lang-select .label a:hover{
+    transform: scale(1.1);
+    
 }

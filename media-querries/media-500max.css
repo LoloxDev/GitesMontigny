@@ -10,6 +10,20 @@
     width: 10%;
 }
 
+#lang-select, #langDiv{
+    height: 118px;
+    width: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+#langDiv:hover{
+    height: 118px;
+}
+
+#langDiv a{
+    width:20px;
+}
+
 @media (orientation: portrait){
 
     #picSelected::after{

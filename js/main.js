@@ -115,7 +115,7 @@ function openPic(){
 
     }
 
-    picBox.setAttribute("src", `../img/${gite}/${picId}.JPEG`);
+    picBox.setAttribute("src", `../../img/${gite}/${picId}.JPEG`);
   
 }
 
@@ -168,7 +168,7 @@ function swapPic(){
         }
     }
 
-    picBox.setAttribute("src", `../img/${gite}/${idPic}.JPEG`);
+    picBox.setAttribute("src", `../../img/${gite}/${idPic}.JPEG`);
 }
 
 document.querySelectorAll('.arrowPic').forEach(function(link){

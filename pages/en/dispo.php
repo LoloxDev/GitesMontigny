@@ -1,42 +1,42 @@
 <h2 class="marginBottom reveal">
-    Disponibilité et tarifs
+  Availability and prices
 </h2>
 
 <p>
 
-  Selon la saison et la durée de votre séjour, la nuitée varie entre 95 à 145€, contactez moi pour plus de précisions ou visitez Gites.fr pour 
+  Depending on the season and the length of your stay, the night varies between 95 to 145€, contact me for more details or visit Gites.fr for 
   <a href="https://www.gites.fr/gites_gite-de-la-pisserotte_montigny-sur-armancon_50096.htm" class="underline" style="font-weight:bold; font-style:italic;" target="blank">La Pisserotte</a>
-   ou 
+   or 
   <a href="https://www.gites.fr/gites_gite-de-la-kelidoine_montigny-sur-armancon_76085.htm" class="underline" style="font-weight:bold; font-style:italic;" target="blank">La Kélidoine</a>.
 
 </p>
 
-<h3>Formulaire de contact</h3>
+<h3>Contact form</h3>
 
-<form action="../exec/sendEmail.php?ind=<?php echo($_GET['ind']) ?>" id="contact" method="post">
+<form action="../../exec/sendEmail.php?ind=<?php echo($_GET['ind']) ?>" id="contact" method="post">
 
-  <label for="fname">Nom & prénom</label>
+  <label for="fname">Name & Surname</label>
   <input type="text" id="fname" name="name">
 
-  <label for="sujet">Objet</label>
+  <label for="sujet">Object</label>
   <input type="text" id="sujet" name="subject">
 
   <label for="emailAddress">Email</label>
   <input id="emailAddress" type="email" name="email">
 
-  <label for="tel">Téléphone</label>
+  <label for="tel">Phone</label>
   <input id="tel" type="tel" name="tel">
 
   <label for="subject">Message</label>
   <textarea id="subject" name="message" style="height:200px"></textarea>
 
-  <input type="submit" value="Envoyer">
+  <input type="submit" value="Send">
 
 </form>
 
 
 <p>
 
-  Il sera bientôt possible d'obtenir les disponibilités et pouvoir réserver directement sur le site.
+  It will soon be possible to obtain availability and be able to book directly on the site.
 
 </p>
